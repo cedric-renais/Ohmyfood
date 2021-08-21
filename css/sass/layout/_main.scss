@@ -1,0 +1,60 @@
+.location{
+    background-color: $bgDarken;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5) inset;
+    & i{
+        font-size: 4.1vw;
+        margin-right: 2vw;
+    }
+    &__input{
+        background-color: $bgDarken;
+        height: 10%;
+        width: 40%;
+        font-size: 4.1vw;
+        font-weight: 600;
+        color: black;
+        border: none;
+        &::placeholder{
+            color: black;
+        }
+    }
+}
+
+.info{
+    background-color: $background;
+    padding: 1rem;
+    text-align: center;
+    & h2{
+        font-size: 8vw;
+    }
+    & p{
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 5vw;
+    }
+}
+
+.btn {
+    background-color: $secondary;
+    background: linear-gradient(to bottom, $secondary 5%, $primary 100%);
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10rem;
+    padding: 1rem 1.5rem;
+    font-size: 4vw;
+    margin: 1rem 0 2rem 0;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration:none;
+    &:hover{
+        background:linear-gradient(to bottom, $primary 5%, $secondary 100%);
+        background-color:$primary;
+    }
+    &:active{
+        box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.5);
+        transform: scale(1.05);
+        transition: 100ms;
+    }
+}
