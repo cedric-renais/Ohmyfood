@@ -23,6 +23,7 @@ h1 {
   margin: 1vh;
 }
 
+/* location */
 .location {
   background-color: #EAEAEA;
   padding: 1rem;
@@ -62,6 +63,7 @@ h1 {
   color: black;
 }
 
+/* info */
 .info {
   background-color: #F6F6F6;
   padding: 1rem;
@@ -105,12 +107,13 @@ h1 {
   transition: 100ms;
 }
 
+/* functioning */
 .functioning {
   margin: 0 7vw 0 7vw;
 }
 
 .functioning h2 {
-  margin-top: 4rem;
+  margin-top: 2rem;
   font-size: 6vw;
 }
 
@@ -153,5 +156,94 @@ h1 {
 
 .functioning__menu--color {
   background-color: #f5e2ffce;
+}
+
+/* restaurants */
+#restaurants {
+  background-color: #F6F6F6;
+  margin-top: 4rem;
+  padding-bottom: 4vh;
+}
+
+#restaurants h2 {
+  padding: 7vh 6vw 0 7vw;
+  font-size: 6vw;
+}
+
+.thumbnail {
+  background-color: white;
+  border-radius: 1rem 1rem;
+  margin: 0 7vw 3vh 7vw;
+  position: relative;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 20vh;
+  border-radius: 1rem 1rem 0 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.thumbnail h3 {
+  margin: 1vh 3vw 0 3vw;
+}
+
+.thumbnail .new {
+  position: absolute;
+  top: 1.5vh;
+  right: 3vw;
+  font-size: 3.5vw;
+  padding: 1.5vw 1.5vh;
+  background-color: #99E2D0;
+  color: #2c9c81;
+  font-weight: 600;
+  border-radius: .2rem;
+}
+
+.thumbnail i {
+  position: absolute;
+  right: 5vw;
+  bottom: 3.5vh;
+  font-size: 5vw;
+}
+
+.thumbnail p {
+  margin: 0 3vw 0 3vw;
+  padding-bottom: 3vh;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  padding: 1vh 7vw 3.5vh 7vw;
+}
+
+footer h2 {
+  font-family: "Shrikhand" , cursive;
+  font-size: 6vw;
+}
+
+footer div {
+  margin-bottom: 1vh;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto" , sans-serif;
+  font-size: 6vw;
+}
+
+footer .link--margin {
+  margin-left: 3vw;
+}
+
+footer .fa-utensils {
+  font-size: 4.5vw;
+}
+
+footer .fa-hands-helping {
+  font-size: 3.2vw;
 }
 /*# sourceMappingURL=style.css.map */
