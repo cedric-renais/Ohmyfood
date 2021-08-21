@@ -2,7 +2,7 @@
     background-color: $bgDarken;
     padding: 1rem;
     text-align: center;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5) inset;
     & i{
         font-size: 4.1vw;
         margin-right: 2vw;
@@ -24,6 +24,7 @@
 .info{
     background-color: $background;
     padding: 1rem;
+    margin-bottom: 3rem;
     text-align: center;
     & h2{
         font-size: 8vw;
@@ -37,24 +38,61 @@
 .btn {
     background-color: $secondary;
     background: linear-gradient(to bottom, $secondary 5%, $primary 100%);
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
     border-radius: 10rem;
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
     font-size: 4vw;
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 5rem 0;
     border: none;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
     font-weight: bold;
     text-decoration:none;
-    &:hover{
-        background:linear-gradient(to bottom, $primary 5%, $secondary 100%);
-        background-color:$primary;
-    }
     &:active{
-        box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.5);
         transform: scale(1.05);
         transition: 100ms;
     }
 }
+
+.functioning{
+    margin: 0 7vw 0 7vw;
+    & h2{
+        margin-top: 4rem;
+        font-size: 6vw;
+    }
+}
+
+.functioning__menu{
+    display: flex;
+    align-items: center;
+    background-color: $background;
+    box-shadow: 0 6px 6px 0 $bgDarken;
+    border-radius: 1rem;
+    padding: .25rem 0 .25rem 0;
+    margin-bottom: 2rem;
+    & div, i, h3{
+        margin-right: 5vw;
+        font-size: 4.5vw;
+    }
+    & div{
+        background-color: $primary;
+        padding: .3rem .6rem;
+        font-size: 3vw;
+        border-radius: 50%;
+        margin-left: -2vw;
+        color: white;
+    }
+    & i{
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .fas--color{
+        color: $primary;
+    }
+}
+
+.functioning__menu--color{
+    background-color: #f5e2ffce;
+}
+
