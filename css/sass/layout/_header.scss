@@ -1,18 +1,24 @@
 .header__home{
+    display: flex;
+    justify-content: center;
     & h1{
-        text-align: center;
         font-size: 8vw;
-        margin: .3rem;
+        margin: 0;
     }
 }
 
 .header__restaurant{
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & a{
+        text-decoration: none;
+    }
     & i{
-        margin: 2vh 0 0 5vw;
+        display: inline;
+        margin: 1.5rem 0 0 3rem;
         font-size: 4vw;
         color: black;
-        position: absolute;
         &:active{
             color: $primary
         }
@@ -20,6 +26,7 @@
     & h1{
         text-align: center;
         font-size: 8vw;
-        margin: .3rem;
+        margin: 0;
     }
 }
+

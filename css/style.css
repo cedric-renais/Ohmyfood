@@ -1,26 +1,38 @@
-body {
-  font-family: "Roboto" , sans-serif;
-}
-
-h1 {
-  font-family: "Shrikhand" , cursive;
+.header__home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__home h1 {
-  text-align: center;
   font-size: 8vw;
-  margin: .3rem;
+  margin: 0;
 }
 
 .header__restaurant {
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__restaurant a {
+  text-decoration: none;
 }
 
 .header__restaurant i {
-  margin: 2vh 0 0 5vw;
+  display: inline;
+  margin: 1.5rem 0 0 3rem;
   font-size: 4vw;
   color: black;
-  position: absolute;
 }
 
 .header__restaurant i:active {
@@ -30,7 +42,7 @@ h1 {
 .header__restaurant h1 {
   text-align: center;
   font-size: 8vw;
-  margin: .3rem;
+  margin: 0;
 }
 
 /***** Index /home *****/
@@ -38,14 +50,13 @@ h1 {
 .location {
   background-color: #EAEAEA;
   padding: 1rem;
-  text-align: center;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5) inset;
           box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5) inset;
 }
 
 .location i {
   font-size: 4.1vw;
-  margin-right: 2vw;
+  margin: 0 2vw 0 26vw;
 }
 
 .location__input {
@@ -95,8 +106,8 @@ h1 {
   background-color: #FF79DC;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #FF79DC), to(#9356DC));
   background: linear-gradient(to bottom, #FF79DC 5%, #9356DC 100%);
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
   border-radius: 10rem;
   padding: 1rem 2rem;
   font-size: 4vw;
@@ -110,8 +121,8 @@ h1 {
 }
 
 .btn:active {
-  -webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   -webkit-transition: 100ms;
@@ -191,11 +202,20 @@ article a {
 
 .thumbnail {
   background-color: white;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 1rem 1rem;
   margin: 0 7vw 3vh 7vw;
   position: relative;
+}
+
+.thumbnail:active {
+  -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: 100ms;
+  transition: 100ms;
 }
 
 .thumbnail img {
@@ -350,6 +370,7 @@ footer a {
   color: white;
   font-family: "Roboto" , sans-serif;
   font-size: 4vw;
+  font-weight: 300;
 }
 
 footer .link--margin {
@@ -362,5 +383,15 @@ footer .fa-utensils {
 
 footer .fa-hands-helping {
   font-size: 3.2vw;
+}
+
+/***** General setting *****/
+body {
+  font-family: "Roboto" , sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Shrikhand" , cursive;
 }
 /*# sourceMappingURL=style.css.map */

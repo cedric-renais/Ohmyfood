@@ -1,5 +1,14 @@
 @import "./sass/base/colors";
-@import "./sass/base/polices";
 @import "./sass/layout/header";
 @import "./sass/layout/main";
 @import "./sass/layout/footer";
+
+/***** General setting *****/
+body{
+    font-family: "Roboto" , sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-family: "Shrikhand" , cursive;
+}
