@@ -1,10 +1,10 @@
 footer{
     background-color: #353535;
     color: white;
-    padding: 1vh 7vw 3.5vh 7vw;
+    padding: 1vh 4.5vh 3.5vh 4.5vh;
     & h2{
         font-family: "Shrikhand" , cursive;
-        font-size: 4.5vw;  
+        font-size: 2.5vh;  
     }
     & div{
         margin-bottom: 1vh;
@@ -13,16 +13,16 @@ footer{
         text-decoration: none;
         color: white;
         font-family: "Roboto" , sans-serif;
-        font-size: 4vw;
+        font-size: 2vh;
         font-weight: 300;
     }
     .link--margin{
-        margin-left: 3vw;
+        margin-left: 1.5vh;
     }
     .fa-utensils{
-        font-size: 4.5vw;
+        font-size: 2.5vh;
     }
     .fa-hands-helping{
-        font-size: 3.2vw;
+        font-size: 1.7vh;
     }
 }
