@@ -2,6 +2,24 @@
     & h1{
         text-align: center;
         font-size: 8vw;
-        margin: 1vh;
+        margin: .3rem;
+    }
+}
+
+.header__restaurant{
+    position: relative;
+    & i{
+        margin: 2vh 0 0 5vw;
+        font-size: 4vw;
+        color: black;
+        position: absolute;
+        &:active{
+            color: $primary
+        }
+    }
+    & h1{
+        text-align: center;
+        font-size: 8vw;
+        margin: .3rem;
     }
 }
