@@ -1,13 +1,23 @@
 @keyframes loader {
     0% {
-        transform: scale(1) translateY(0) rotateX(0);
+        transform: scale(1) translateY(0) rotateX(360deg);
         transform-origin: 50% 0%;
     }
+    25% {
+        color: $primary;
+        transition: ease-in-out;
+    }
     50% {
-        transform: scale(1.8) translateY(+500%) rotateX(-180deg);
+        transform: scale(1.8) translateY(+350%);
+        color: $secondary;
+        transition: ease-in-out;
+    }
+    75% {
+        color: $tertiary;
+        transition: ease-in-out;
     }
     100% {
-        transform: scale(1) translateY(0) rotateX(0);
+        transform: scale(1) translateY(0) rotateX(360deg);
         transform-origin: 50% 0%;
     }
 }

@@ -1,17 +1,30 @@
 @-webkit-keyframes loader {
   0% {
-    -webkit-transform: scale(1) translateY(0) rotateX(0);
-            transform: scale(1) translateY(0) rotateX(0);
+    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
+            transform: scale(1) translateY(0) rotateX(360deg);
     -webkit-transform-origin: 50% 0%;
             transform-origin: 50% 0%;
   }
+  25% {
+    color: #9356DC;
+    -webkit-transition: ease-in-out;
+    transition: ease-in-out;
+  }
   50% {
-    -webkit-transform: scale(1.8) translateY(500%) rotateX(-180deg);
-            transform: scale(1.8) translateY(500%) rotateX(-180deg);
+    -webkit-transform: scale(1.8) translateY(350%);
+            transform: scale(1.8) translateY(350%);
+    color: #FF79DC;
+    -webkit-transition: ease-in-out;
+    transition: ease-in-out;
+  }
+  75% {
+    color: #99E2D0;
+    -webkit-transition: ease-in-out;
+    transition: ease-in-out;
   }
   100% {
-    -webkit-transform: scale(1) translateY(0) rotateX(0);
-            transform: scale(1) translateY(0) rotateX(0);
+    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
+            transform: scale(1) translateY(0) rotateX(360deg);
     -webkit-transform-origin: 50% 0%;
             transform-origin: 50% 0%;
   }
@@ -19,18 +32,31 @@
 
 @keyframes loader {
   0% {
-    -webkit-transform: scale(1) translateY(0) rotateX(0);
-            transform: scale(1) translateY(0) rotateX(0);
+    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
+            transform: scale(1) translateY(0) rotateX(360deg);
     -webkit-transform-origin: 50% 0%;
             transform-origin: 50% 0%;
   }
+  25% {
+    color: #9356DC;
+    -webkit-transition: ease-in-out;
+    transition: ease-in-out;
+  }
   50% {
-    -webkit-transform: scale(1.8) translateY(500%) rotateX(-180deg);
-            transform: scale(1.8) translateY(500%) rotateX(-180deg);
+    -webkit-transform: scale(1.8) translateY(350%);
+            transform: scale(1.8) translateY(350%);
+    color: #FF79DC;
+    -webkit-transition: ease-in-out;
+    transition: ease-in-out;
+  }
+  75% {
+    color: #99E2D0;
+    -webkit-transition: ease-in-out;
+    transition: ease-in-out;
   }
   100% {
-    -webkit-transform: scale(1) translateY(0) rotateX(0);
-            transform: scale(1) translateY(0) rotateX(0);
+    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
+            transform: scale(1) translateY(0) rotateX(360deg);
     -webkit-transform-origin: 50% 0%;
             transform-origin: 50% 0%;
   }
