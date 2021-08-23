@@ -1,0 +1,64 @@
+#restaurants{
+    background-color: $background;
+    margin-top: 4rem;
+    padding-bottom: 4vh;
+    & h2{
+        padding: 7vh 6vw 0 6vw;
+        font-size: 3vh;
+    }
+}
+
+.restaurant{
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+    .restaurant__thumbnail{
+        background-color: white;
+        box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 1rem 1rem; 
+        margin: 0 7vw 3vh 6vw;
+        position: relative;
+        &:hover{
+           @include box-shadow;
+            transition: 150ms ease-in-out;        
+        }
+        &:active{
+            @include box-shadow__big;
+            @include scaling;
+        }
+        & img{
+            width: $width;
+            height: 20vh;
+            border-radius: 1rem 1rem 0 0;
+            object-fit: cover;
+        }
+        & h3{
+            margin: 1vh 3vw 0 3vw;
+            font-size: 2vh;
+        }
+        .new{
+            position: absolute;
+            top: 1.5vh;
+            right: 1.5vh;
+            font-size: 2vh;
+            padding: 1vh 1.5vh;
+            background-color: $tertiary;
+            color: darken($tertiary, 35);
+            font-weight: 600;
+            border-radius: .2rem;
+        }
+        & i{
+            position: absolute;
+            right: 5vw;
+            bottom: 3.5vh;
+            font-size: 3vh;
+        }
+        & p{
+            margin: 0 3vw 0 3vw;
+            padding-bottom: 3vh;
+            font-size: 2vh;
+            font-weight: 300;
+        }
+    }
+}

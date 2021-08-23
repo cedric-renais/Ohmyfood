@@ -1,8 +1,6 @@
 .header__home{
     & h1{
-        font-size: 5vh;
-        text-align: center;
-        margin: 0;
+    @include header__title;
     }
 }
 
@@ -20,14 +18,11 @@
             color: $secondary;
         }
         &:active{
-            transform: scale(1.2);
-            transition: 150ms ease-in-out;
+            @include scaling;
         }
     }
     & h1{
-        text-align: center;
-        font-size: 5vh;
-        margin: 0;
+        @include header__title;
     }
 }
 

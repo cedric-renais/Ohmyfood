@@ -1,0 +1,71 @@
+.main__restaurant{
+    & img{
+        width: $width;
+        height: 30vh;
+        object-fit: cover;
+    }
+}
+
+.restaurant__container{
+    position: relative;
+    margin-top: -3rem;
+    width: $width;
+    background-color: $background;
+    padding: 2rem 0 2rem 0;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.restaurant__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -1rem 3rem 0 2rem;
+    & h2{
+        font-family: "Shrikhand" , cursive;
+        font-size: 3.5vh;
+    }
+    & i{
+        font-size: 3vh;
+    }
+}
+
+.menu{
+    background-color: $background;
+    padding-bottom: 4rem;
+    & h3{
+        padding-top: .2rem;
+        margin-left: 2rem;
+        font-size: 2.5vh;
+        font-weight: $pages-restaurant__font-weight;
+        text-transform: uppercase;
+    }
+    &--border{
+        padding-bottom: .2rem;
+        border-bottom: 3px solid $tertiary;
+    }
+    &--bg{
+        background-color: $white;
+        box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 1.3rem;
+        padding: .1rem 0 1rem 0;
+        margin: 0 2rem 1rem 2rem;
+        & h4{
+            font-size: 2vh;
+            margin: 1rem 1rem .4rem 1rem;
+        }
+        & div{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem 0 1rem;
+            font-size: 1.8vh;
+            font-weight: $pages-restaurant__font-weight;
+        }
+    }
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: -6.5rem;
+}

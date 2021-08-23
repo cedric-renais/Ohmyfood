@@ -1,0 +1,42 @@
+.functioning{
+    margin: 0 7vw 0 7vw;
+    & h2{
+        margin-top: 2rem;
+        font-size: 3vh;
+    }
+}
+
+.functioning__menu{
+    display: flex;
+    align-items: center;
+    background-color: $background;
+    box-shadow: 0 3px 3px 0 $background--darken;
+    border-radius: 1rem;
+    padding: .25rem 0 .25rem 0;
+    margin-bottom: 2rem;
+    & h3{
+        margin-right: 5vw;
+        font-size: $functioning__font-size;
+    }
+    & div{
+        background-color: $primary;
+        padding: .25rem .5rem;
+        font-size: $functioning__font-size;
+        border-radius: 50%;
+        margin-left: -1vh;
+        color: white;
+        margin-right: 5vw;
+    }
+    & i{
+        color: rgba(0, 0, 0, 0.5);
+        margin-right: 5vw;
+        font-size: 2.5vh;
+    }
+    .fas--color{
+        color: $primary;
+    }
+}
+
+.functioning__menu--color{
+    background-color: #f5e2ffce;
+}

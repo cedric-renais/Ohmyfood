@@ -1,0 +1,39 @@
+@mixin header__title {
+    font-size: $header__font-size;
+    text-align: $header__center;
+    margin: $header__margin;
+}
+
+@mixin button {
+    background-color: $secondary;
+    background: linear-gradient(to bottom, $secondary 5%, $primary 100%);
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    font-size: 2vh;
+    margin: 1rem 0 5rem 0;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: $white;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+@mixin box-shadow{
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+@mixin box-shadow__big {
+    box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+@mixin scaling {
+    transform: scale(1.05);
+    transition: 150ms ease-in-out;
+}
+
+@mixin Inverse-gradient {
+    background: linear-gradient(to bottom, $primary 5%, $secondary 100%);
+    background-color: $primary;
+} 
