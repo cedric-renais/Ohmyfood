@@ -1,79 +1,28 @@
-@-webkit-keyframes loader {
-  0% {
-    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
-            transform: scale(1) translateY(0) rotateX(360deg);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-  }
-  25% {
-    color: #9356DC;
-    text-shadow: #FF79DC 1px 1px, #FF79DC -1px 1px, #FF79DC -1px -1px, #FF79DC 1px -1px;
-    -webkit-transition: ease-in-out;
-    transition: ease-in-out;
-  }
-  50% {
-    -webkit-transform: scale(1.8) translateY(350%);
-            transform: scale(1.8) translateY(350%);
-    color: #FF79DC;
-    text-shadow: #99E2D0 1px 1px, #99E2D0 -1px 1px, #99E2D0 -1px -1px, #99E2D0 1px -1px;
-    -webkit-transition: ease-in-out;
-    transition: ease-in-out;
-  }
-  75% {
-    color: #99E2D0;
-    text-shadow: #9356DC 1px 1px, #9356DC -1px 1px, #9356DC -1px -1px, #9356DC 1px -1px;
-    -webkit-transition: ease-in-out;
-    transition: ease-in-out;
-  }
-  100% {
-    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
-            transform: scale(1) translateY(0) rotateX(360deg);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-  }
-}
 
 @keyframes loader {
   0% {
-    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
-            transform: scale(1) translateY(0) rotateX(360deg);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
+    transform: scale(1) translateY(0) rotateX(360deg);
+    transform-origin: 50% 0%;
   }
   25% {
     color: #9356DC;
     text-shadow: #FF79DC 1px 1px, #FF79DC -1px 1px, #FF79DC -1px -1px, #FF79DC 1px -1px;
-    -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
   50% {
-    -webkit-transform: scale(1.8) translateY(350%);
-            transform: scale(1.8) translateY(350%);
+    transform: scale(1.8) translateY(350%);
     color: #FF79DC;
     text-shadow: #99E2D0 1px 1px, #99E2D0 -1px 1px, #99E2D0 -1px -1px, #99E2D0 1px -1px;
-    -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
   75% {
     color: #99E2D0;
     text-shadow: #9356DC 1px 1px, #9356DC -1px 1px, #9356DC -1px -1px, #9356DC 1px -1px;
-    -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
   100% {
-    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
-            transform: scale(1) translateY(0) rotateX(360deg);
-    -webkit-transform-origin: 50% 0%;
-            transform-origin: 50% 0%;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+    transform: scale(1) translateY(0) rotateX(360deg);
+    transform-origin: 50% 0%;
   }
 }
 
@@ -87,8 +36,7 @@
 }
 
 .header__index .header__index--loader {
-  -webkit-animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards;
-          animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards;
+  animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards;
 }
 
 .header__index .header__index--loader h1 {
@@ -123,9 +71,7 @@
 }
 
 .header__restaurant i:active {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: 150ms ease-in-out;
+  transform: scale(1.05);
   transition: 150ms ease-in-out;
 }
 
@@ -138,8 +84,7 @@
 .location {
   background-color: #EAEAEA;
   padding: 1rem;
-  -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
-          box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
   font-size: 2.5vh;
   font-weight: 300;
   text-align: center;
@@ -149,7 +94,6 @@
   margin-right: 2vh;
 }
 
-/* info */
 .info {
   background-color: #F6F6F6;
   padding: 1rem;
@@ -167,10 +111,8 @@
 }
 
 .btn {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #FF79DC), to(#9356DC));
   background: linear-gradient(to bottom, #FF79DC 5%, #9356DC 100%);
-  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 10rem;
   padding: 1rem 2rem;
   font-size: 2vh;
@@ -185,21 +127,15 @@
 }
 
 .btn:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #9356DC), to(#FF79DC));
   background: linear-gradient(to bottom, #9356DC 5%, #FF79DC 100%);
-  -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
   opacity: 0.75;
-  -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
 }
 
 .btn:active {
-  -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: 150ms ease-in-out;
+  box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
   transition: 150ms ease-in-out;
 }
 
@@ -213,15 +149,10 @@
 }
 
 .functioning__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: #F6F6F6;
-  -webkit-box-shadow: 0 3px 3px 0 #EAEAEA;
-          box-shadow: 0 3px 3px 0 #EAEAEA;
+  box-shadow: 0 3px 3px 0 #EAEAEA;
   border-radius: 1rem;
   padding: .25rem 0 .25rem 0;
   margin-bottom: 2rem;
@@ -274,26 +205,20 @@
 
 .restaurant .restaurant__thumbnail {
   background-color: white;
-  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 1rem 1rem;
   margin: 0 7vw 3vh 6vw;
   position: relative;
 }
 
 .restaurant .restaurant__thumbnail:hover {
-  -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
-  -webkit-transition: 150ms ease-in-out;
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
   transition: 150ms ease-in-out;
 }
 
 .restaurant .restaurant__thumbnail:active {
-  -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: 150ms ease-in-out;
+  box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
   transition: 150ms ease-in-out;
 }
 
@@ -301,8 +226,7 @@
   width: 100%;
   height: 20vh;
   border-radius: 1rem 1rem 0 0;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .restaurant .restaurant__thumbnail h3 {
@@ -339,8 +263,7 @@
 .main__restaurant img {
   width: 100%;
   height: 30vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .restaurant__container {
@@ -353,15 +276,9 @@
 }
 
 .restaurant__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   margin: -1rem 3rem 0 2rem;
 }
 
@@ -394,8 +311,7 @@
 
 .menu--bg {
   background-color: #fff;
-  -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 1.3rem;
   padding: .1rem 0 1rem 0;
   margin: 0 2rem 1rem 2rem;
@@ -407,24 +323,16 @@
 }
 
 .menu--bg div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 0 1rem 0 1rem;
   font-size: 1.8vh;
   font-weight: 300;
 }
 
 .order {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 3rem;
   margin-bottom: -6.5rem;
 }
@@ -470,17 +378,13 @@
   color: #FF79DC;
 }
 
-/***** General setting *****/
 body {
   font-family: "Roboto" , sans-serif;
   margin: 0 auto;
   max-width: 1280px;
-  -webkit-animation: fadeIn ease 1500ms;
-          animation: fadeIn ease 1500ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation: fadeIn ease 1500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 h1 {
