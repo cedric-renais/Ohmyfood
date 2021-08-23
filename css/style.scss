@@ -13,11 +13,14 @@ body{
     font-family: "Roboto" , sans-serif;
     margin: 0 auto;
     max-width: 1280px;
-    animation: fadeIn ease 1500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 h1{
     font-family: "Shrikhand" , cursive;
+}
+
+.main__index{
+    animation: fadeIn ease 3000ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
