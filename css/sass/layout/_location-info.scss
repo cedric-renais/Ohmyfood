@@ -1,4 +1,3 @@
-/* location */
 .location{
     background-color: $background--darken;
     padding: 1rem;
@@ -28,12 +27,11 @@
 
 .btn {
     @include button;
+    &:hover{
+        @include button-bg;
+    }
     &:active{
         @include box-shadow__big;
         @include scaling;
-    }
-    &:hover{
-    @include Inverse-gradient;
-    
     }
 }

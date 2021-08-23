@@ -5,8 +5,7 @@
 }
 
 @mixin button {
-    background-color: $secondary;
-    background: linear-gradient(to bottom, $secondary 5%, $primary 100%);
+    background: $linear-gradient;
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
     border-radius: 10rem;
     padding: 1rem 2rem;
@@ -18,6 +17,13 @@
     color: $white;
     font-weight: bold;
     text-decoration:none;
+    opacity: 1;
+}
+
+@mixin button-bg {
+    background: $linear-gradient-inverse;
+    opacity: 0.75;
+    transition: opacity 250ms;
 }
 
 @mixin box-shadow{
@@ -31,9 +37,4 @@
 @mixin scaling {
     transform: scale(1.05);
     transition: 150ms ease-in-out;
-}
-
-@mixin Inverse-gradient {
-    background: linear-gradient(to bottom, $primary 5%, $secondary 100%);
-    background-color: $primary;
 } 

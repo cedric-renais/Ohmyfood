@@ -1,6 +1,15 @@
+.header__index{
+    .header__index--loader{
+        animation: loader 3000ms cubic-bezier(0.455, 0.030, 0.515, 0.955) backwards;
+        & h1{
+            @include header__title;
+            }
+    }
+}
+
 .header__home{
     & h1{
-    @include header__title;
+        @include header__title;
     }
 }
 
