@@ -6,7 +6,7 @@
 
 @mixin button {
     background: $linear-gradient;
-    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10rem;
     padding: 1rem 2rem;
     font-size: 2vh;
@@ -22,6 +22,7 @@
 
 @mixin button-bg {
     background: $linear-gradient-inverse;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
     opacity: 0.75;
     transition: opacity 250ms;
 }
