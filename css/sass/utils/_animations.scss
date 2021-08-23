@@ -5,15 +5,18 @@
     }
     25% {
         color: $primary;
+        text-shadow: $secondary 1px 1px, $secondary -1px 1px, $secondary -1px -1px, $secondary 1px -1px;
         transition: ease-in-out;
     }
     50% {
         transform: scale(1.8) translateY(+350%);
         color: $secondary;
+        text-shadow: $tertiary 1px 1px, $tertiary -1px 1px, $tertiary -1px -1px, $tertiary 1px -1px;
         transition: ease-in-out;
     }
     75% {
         color: $tertiary;
+        text-shadow: $primary 1px 1px, $primary -1px 1px, $primary -1px -1px, $primary 1px -1px;
         transition: ease-in-out;
     }
     100% {

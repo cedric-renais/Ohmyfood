@@ -7,6 +7,7 @@
   }
   25% {
     color: #9356DC;
+    text-shadow: #FF79DC 1px 1px, #FF79DC -1px 1px, #FF79DC -1px -1px, #FF79DC 1px -1px;
     -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
@@ -14,11 +15,13 @@
     -webkit-transform: scale(1.8) translateY(350%);
             transform: scale(1.8) translateY(350%);
     color: #FF79DC;
+    text-shadow: #99E2D0 1px 1px, #99E2D0 -1px 1px, #99E2D0 -1px -1px, #99E2D0 1px -1px;
     -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
   75% {
     color: #99E2D0;
+    text-shadow: #9356DC 1px 1px, #9356DC -1px 1px, #9356DC -1px -1px, #9356DC 1px -1px;
     -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
@@ -39,6 +42,7 @@
   }
   25% {
     color: #9356DC;
+    text-shadow: #FF79DC 1px 1px, #FF79DC -1px 1px, #FF79DC -1px -1px, #FF79DC 1px -1px;
     -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
@@ -46,11 +50,13 @@
     -webkit-transform: scale(1.8) translateY(350%);
             transform: scale(1.8) translateY(350%);
     color: #FF79DC;
+    text-shadow: #99E2D0 1px 1px, #99E2D0 -1px 1px, #99E2D0 -1px -1px, #99E2D0 1px -1px;
     -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
   75% {
     color: #99E2D0;
+    text-shadow: #9356DC 1px 1px, #9356DC -1px 1px, #9356DC -1px -1px, #9356DC 1px -1px;
     -webkit-transition: ease-in-out;
     transition: ease-in-out;
   }
