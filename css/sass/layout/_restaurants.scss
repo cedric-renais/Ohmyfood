@@ -1,9 +1,8 @@
 #restaurants{
     background-color: $background;
-    margin-top: 4rem;
-    padding-bottom: 4vh;
+    padding-bottom: 3vh;
     & h2{
-        padding: 7vh 6vw 0 6vw;
+        padding: 3vh 0 0 7vh;
         font-size: 3vh;
     }
 }
@@ -17,7 +16,7 @@
         background-color: white;
         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
         border-radius: 1rem 1rem; 
-        margin: 0 7vw 3vh 6vw;
+        margin: 0 2vh 2vh 2vh;
         position: relative;
         &:hover{
            @include box-shadow;
@@ -34,14 +33,14 @@
             object-fit: cover;
         }
         & h3{
-            margin: 1vh 3vw 0 3vw;
+            margin: 1vh 1vh 0 1vh;
             font-size: 2vh;
         }
         .new{
             position: absolute;
             top: 1.5vh;
             right: 1.5vh;
-            font-size: 2vh;
+            font-size: 1.5vh;
             padding: 1vh 1.5vh;
             background-color: $tertiary;
             color: darken($tertiary, 35);
@@ -50,12 +49,12 @@
         }
         & i{
             position: absolute;
-            right: 5vw;
+            right: 3vh;
             bottom: 3.5vh;
             font-size: 3vh;
         }
         & p{
-            margin: 0 3vw 0 3vw;
+            margin: 0 1vh 0 1vh;
             padding-bottom: 3vh;
             font-size: 2vh;
             font-weight: 300;

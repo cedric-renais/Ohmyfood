@@ -11,7 +11,7 @@
         text-shadow: $secondary 1px 1px, $secondary -1px 1px, $secondary -1px -1px, $secondary 1px -1px;
     }
     50% {
-        transform: scale(1.8) translateY(+300%);
+        transform: scale(1) translateY(+500%);
         color: $secondary;
         text-shadow: $tertiary 1px 1px, $tertiary -1px 1px, $tertiary -1px -1px, $tertiary 1px -1px;
     }
@@ -52,9 +52,14 @@
 @keyframes scale-x {
     0% {
         transform: scaleX(0);
+        opacity: 0;
+    }
+    5%{
+        opacity: 0;
     }
     100% {
         transform: scaleX(1);
+        opacity: 1;
     }
   }
   @keyframes rotate360 {
