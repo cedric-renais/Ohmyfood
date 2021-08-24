@@ -1,10 +1,12 @@
 .footer__container{
+    position: relative;
     background-color: #353535;
     color: $white;
-    padding: 1vh 4.5vh 3.5vh 4.5vh;
+    padding: 1vh 3vh 3vh 3vh;
     & h2{
         font-family: "Shrikhand" , cursive;
-        font-size: $footer__font-size;  
+        font-size: $footer__font-size;
+        font-weight: $footer__font-weight;  
     }
     & div{
         margin-bottom: 1vh;
@@ -14,7 +16,7 @@
         color: $white;
         font-family: "Roboto" , sans-serif;
         font-size: $footer__font-size;
-        font-weight: 300;
+        font-weight: $footer__font-weight;
     }
     .fa-utensils{
         font-size: $footer__font-size;

@@ -1,7 +1,7 @@
 .functioning{
-    margin: 1vh 7vw;
+    margin: 6vh 3vh 6vh 3vh;
     & h2{
-        font-size: 3vh;
+        font-size: 2.8vh;
     }
 }
 
@@ -13,23 +13,22 @@
     border-radius: 1rem;
     padding: .25rem 0 .25rem 0;
     margin-bottom: 2rem;
-    & h3{
-        margin-right: 5vw;
-        font-size: $functioning__font-size;
-    }
     & div{
         background-color: $primary;
         padding: .25rem .5rem;
-        font-size: $functioning__font-size;
         border-radius: 50%;
         margin-left: -1vh;
         color: white;
-        margin-right: 2.5vh;
+        font-size: 2.3vh;
+        margin-right: 2vh;
     }
     & i{
         color: rgba(0, 0, 0, 0.5);
-        margin-right: 5vh;
-        font-size: 2.5vh;
+        font-size: 3vh;
+        margin-right: 2vh;
+    }
+    & h3{
+        font-size: 2.3vh;
     }
     .fas--color{
         color: $primary;

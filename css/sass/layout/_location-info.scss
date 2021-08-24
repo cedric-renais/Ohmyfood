@@ -2,8 +2,7 @@
     background-color: $background--darken;
     padding: 1rem;
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
-    font-size: $location-info__font-size;
-    font-weight: $location-info__font-weight;
+    font-size: 2.5vh;
     text-align: center;
     & i{
         margin-right: 2vh;
@@ -12,14 +11,15 @@
 
 .info{
     background-color: $background;
-    padding: 0.1rem;
+    padding: .5vh 0 5vh 0;
     text-align: center;
     & h2{
-        font-size: 4vh;
+        font-size: 3.3vh;
+        margin: 2.5vh 3vh 0 3vh;
     }
     & p{
-        font-size: $location-info__font-size;
-        font-weight: $location-info__font-weight;
+        font-size: 2.3vh;
+        margin: 1vh 1.5vh 3.5vh 1.5vh;
     }
 }
 

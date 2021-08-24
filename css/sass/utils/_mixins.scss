@@ -9,9 +9,8 @@
     background: $linear-gradient;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
     border-radius: 10rem;
-    padding: 1rem 2rem;
+    padding: .8rem 1.5rem;
     font-size: 2vh;
-    margin: 1rem 0 5rem 0;
     border: none;
     display: inline-block;
     cursor: pointer;
@@ -41,6 +40,6 @@
 
 /* scaling effect */
 @mixin scaling {
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: 150ms ease-in-out;
 } 

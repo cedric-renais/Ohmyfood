@@ -16,7 +16,7 @@
     margin-top: -3rem;
     width: 100%;
     background-color: $background;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0;
     border-radius: 1.5rem 1.5rem 0 0;
 }
 
@@ -24,24 +24,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: -1rem 3rem 0 2rem;
     & h2{
         font-family: "Shrikhand" , cursive;
-        font-size: 3.5vh;
+        font-size: 3.3vh;
+        margin: 0 2vh;
     }
     & i{
-        font-size: 4vh;
+        font-size: 3.3vh;
+        margin-right: 2vh;
     }
 }
 
 .menu{
     background-color: $background;
-    padding-bottom: 4rem;
     & h3{
-        padding-top: .2rem;
-        margin-left: 2rem;
-        font-size: 3vh;
-        font-weight: $pages-restaurant__font-weight;
+        padding-top: 1vh;
+        margin-left: 2vh;
+        font-size: 2.8vh;
         text-transform: uppercase;
     }
     &--border{
@@ -60,20 +59,19 @@
     &--bg{
         background-color: $white;
         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-        border-radius: 1.3rem;
-        padding: .1vh 0 1vh 0;
-        margin: 1vh 2vw 1vh 2vw;
+        border-radius: 1rem;
+        padding: 1vh 3vh;
+        margin: 2vh 2vh;
         cursor: pointer;
         & h4{
             font-size: 2.5vh;
-            margin: 1.5vh 3vw 1vh 3vw;
+            margin: 0.5vh 1vh;
         }
         & div{
             display: flex;
             justify-content: space-between;
-            padding: 0 3vw;
-            font-size: 2.3vh;
-            font-weight: $pages-restaurant__font-weight;
+            padding: 0 1vh;
+            font-size: 2.2vh;
         }
         &:hover .menu__choose{
             visibility: visible;
@@ -92,7 +90,7 @@
     align-items: center;
     background: $tertiary;
     height: 100%;
-    border-radius: 0 1.3rem 1.3rem 0;
+    border-radius: 0 1rem 1rem 0;
     position: absolute;
     top: 0;
     right: 0;
@@ -107,6 +105,9 @@
 .order{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: -6.5rem;
+    margin-top: 7vh;
+}
+
+.btn__order{
+    padding: 2vh 6vh;
 }
