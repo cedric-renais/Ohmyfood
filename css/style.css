@@ -1,7 +1,7 @@
 @-webkit-keyframes loader {
   0% {
-    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
-            transform: scale(1) translateY(0) rotateX(360deg);
+    -webkit-transform: scale(0) translateY(0) rotateX(360deg);
+            transform: scale(0) translateY(0) rotateX(360deg);
     -webkit-transform-origin: 50% 0%;
             transform-origin: 50% 0%;
   }
@@ -12,8 +12,8 @@
     transition: ease-in-out;
   }
   50% {
-    -webkit-transform: scale(1.8) translateY(350%);
-            transform: scale(1.8) translateY(350%);
+    -webkit-transform: scale(1.8) translateY(300%);
+            transform: scale(1.8) translateY(300%);
     color: #FF79DC;
     text-shadow: #99E2D0 1px 1px, #99E2D0 -1px 1px, #99E2D0 -1px -1px, #99E2D0 1px -1px;
     -webkit-transition: ease-in-out;
@@ -35,8 +35,8 @@
 
 @keyframes loader {
   0% {
-    -webkit-transform: scale(1) translateY(0) rotateX(360deg);
-            transform: scale(1) translateY(0) rotateX(360deg);
+    -webkit-transform: scale(0) translateY(0) rotateX(360deg);
+            transform: scale(0) translateY(0) rotateX(360deg);
     -webkit-transform-origin: 50% 0%;
             transform-origin: 50% 0%;
   }
@@ -47,8 +47,8 @@
     transition: ease-in-out;
   }
   50% {
-    -webkit-transform: scale(1.8) translateY(350%);
-            transform: scale(1.8) translateY(350%);
+    -webkit-transform: scale(1.8) translateY(300%);
+            transform: scale(1.8) translateY(300%);
     color: #FF79DC;
     text-shadow: #99E2D0 1px 1px, #99E2D0 -1px 1px, #99E2D0 -1px -1px, #99E2D0 1px -1px;
     -webkit-transition: ease-in-out;
@@ -93,8 +93,8 @@
 }
 
 .header__index .header__index--loader {
-  -webkit-animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards;
-          animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards;
+  -webkit-animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
+          animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
 }
 
 .header__index .header__index--loader h1 {
@@ -155,7 +155,6 @@
   margin-right: 2vh;
 }
 
-/* info */
 .info {
   background-color: #F6F6F6;
   padding: 1rem;
@@ -488,8 +487,8 @@ h1 {
 }
 
 .main__index {
-  -webkit-animation: fadeIn ease 3000ms;
-          animation: fadeIn ease 3000ms;
+  -webkit-animation: fadeIn ease 3700ms;
+          animation: fadeIn ease 3700ms;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: forwards;
