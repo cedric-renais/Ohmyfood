@@ -43,6 +43,15 @@
         padding-bottom: .2rem;
         border-bottom: 3px solid $tertiary;
     }
+    &--anim01{
+    animation: slide__fadein 600ms ease-in 150ms both;
+    }
+    &--anim02{
+        animation: slide__fadein 600ms ease-in 300ms both;
+    }
+    &--anim03{
+        animation: slide__fadein 600ms ease-in 450ms both;
+    }
     &--bg{
         background-color: $white;
         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
