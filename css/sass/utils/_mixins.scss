@@ -4,6 +4,7 @@
     margin: $header__margin;
 }
 
+/* base button */
 @mixin button {
     background: $linear-gradient;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -20,6 +21,7 @@
     opacity: 1;
 }
 
+/* inverse gradient button */
 @mixin button-bg {
     background: $linear-gradient-inverse;
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
@@ -27,14 +29,17 @@
     transition: opacity 250ms;
 }
 
+/* small shadow */
 @mixin box-shadow{
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
+/* big shadow */
 @mixin box-shadow__big {
     box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
+/* scaling effect */
 @mixin scaling {
     transform: scale(1.05);
     transition: 150ms ease-in-out;

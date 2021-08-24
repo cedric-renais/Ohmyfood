@@ -1,3 +1,4 @@
+/* animation loader */
 @keyframes loader {
     0% {
         transform: scale(0) translateY(0) rotateX(360deg);
@@ -23,7 +24,6 @@
         transform-origin: 50% 0%;
     }
 }
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -36,7 +36,8 @@
     }
 }
 
-  @keyframes slide__fadein {
+/* animation slide menu */
+  @keyframes menu__slide {
     0% {
         transform: translateY(+25px);
         opacity: 0;

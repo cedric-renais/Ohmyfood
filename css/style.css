@@ -1,3 +1,9 @@
+/* base button */
+/* inverse gradient button */
+/* small shadow */
+/* big shadow */
+/* scaling effect */
+/* animation loader */
 @-webkit-keyframes loader {
   0% {
     -webkit-transform: scale(0) translateY(0) rotateX(360deg);
@@ -28,7 +34,6 @@
             transform-origin: 50% 0%;
   }
 }
-
 @keyframes loader {
   0% {
     -webkit-transform: scale(0) translateY(0) rotateX(360deg);
@@ -84,7 +89,20 @@
   }
 }
 
-@-webkit-keyframes slide__fadein {
+/* animation slide menu */
+@-webkit-keyframes menu__slide {
+  0% {
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes menu__slide {
   0% {
     -webkit-transform: translateY(25px);
             transform: translateY(25px);
@@ -97,19 +115,7 @@
   }
 }
 
-@keyframes slide__fadein {
-  0% {
-    -webkit-transform: translateY(25px);
-            transform: translateY(25px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
-}
-
+/* header index  + loader */
 .header__index .header__index--loader {
   -webkit-animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
           animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
@@ -121,12 +127,14 @@
   margin: 0;
 }
 
+/* header home */
 .header__home h1 {
   font-size: 5vh;
   text-align: center;
   margin: 0;
 }
 
+/* header resaurant + back arrow */
 .header__restaurant {
   position: relative;
 }
@@ -416,18 +424,18 @@
 }
 
 .menu--anim01 {
-  -webkit-animation: slide__fadein 600ms ease-in 150ms both;
-          animation: slide__fadein 600ms ease-in 150ms both;
+  -webkit-animation: menu__slide 600ms ease-in 150ms both;
+          animation: menu__slide 600ms ease-in 150ms both;
 }
 
 .menu--anim02 {
-  -webkit-animation: slide__fadein 600ms ease-in 300ms both;
-          animation: slide__fadein 600ms ease-in 300ms both;
+  -webkit-animation: menu__slide 600ms ease-in 300ms both;
+          animation: menu__slide 600ms ease-in 300ms both;
 }
 
 .menu--anim03 {
-  -webkit-animation: slide__fadein 600ms ease-in 450ms both;
-          animation: slide__fadein 600ms ease-in 450ms both;
+  -webkit-animation: menu__slide 600ms ease-in 450ms both;
+          animation: menu__slide 600ms ease-in 450ms both;
 }
 
 .menu--bg {
