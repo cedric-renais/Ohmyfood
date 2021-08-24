@@ -58,6 +58,7 @@
         border-radius: 1.3rem;
         padding: .1rem 0 1rem 0;
         margin: 0 2rem 1rem 2rem;
+        cursor: pointer;
         & h4{
             font-size: 2vh;
             margin: 1rem 1rem .4rem 1rem;
@@ -69,7 +70,33 @@
             font-size: 1.8vh;
             font-weight: $pages-restaurant__font-weight;
         }
+        &:hover .menu__choose{
+            visibility: visible;
+            transform-origin: right;
+            animation: scale-x 600ms ease-in-out both;
+            & i{
+                animation: rotate360 600ms ease-in-out both; 
+            }
+        }
+
     }
+}
+
+.menu__choose{
+    display: flex;
+    align-items: center;
+    background: $tertiary;
+    height: 100%;
+    border-radius: 0 1.3rem 1.3rem 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    & i{
+        font-size: 4vh;
+        color: $white;
+    }
+
 }
 
 .order{
