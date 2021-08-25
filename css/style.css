@@ -538,11 +538,14 @@
           justify-content: space-between;
 }
 
-.menu--bg .menu__accompaniment span {
-  font-size: 1.9vh;
+.menu--bg .menu__accompaniment {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.menu--bg .menu__accompaniment span {
+  font-size: 1.9vh;
 }
 
 .menu--bg .menu__price {
@@ -557,10 +560,15 @@
           animation: scale-x 600ms ease-in-out both;
 }
 
-e
 .menu--bg:hover .menu__choose i {
   -webkit-animation: rotate360 600ms ease-in-out both;
           animation: rotate360 600ms ease-in-out both;
+}
+
+.menu--bg:hover .menu__price {
+  padding-right: 7vh;
+  -webkit-transition: 600ms ease-in-out;
+  transition: 600ms ease-in-out;
 }
 
 .menu__choose {

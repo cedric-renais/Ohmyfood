@@ -78,11 +78,12 @@
             justify-content: space-between;
         }
         .menu__accompaniment{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             & span{
                 font-size: 1.9vh;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
+
             }
         }
         .menu__price{
@@ -91,10 +92,14 @@
         &:hover .menu__choose{
             visibility: visible;
             transform-origin: right;
-            animation: scale-x 600ms ease-in-out both;e
+            animation: scale-x 600ms ease-in-out both;
             & i{
                 animation: rotate360 600ms ease-in-out both; 
             }
+        }
+        &:hover .menu__price{
+            padding-right: 7vh;
+            transition: 600ms ease-in-out;
         }
 
     }
