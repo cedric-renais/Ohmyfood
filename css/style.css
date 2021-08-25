@@ -65,7 +65,7 @@
   }
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes fade-in-index {
   0% {
     opacity: 0;
   }
@@ -77,7 +77,7 @@
   }
 }
 
-@keyframes fadeIn {
+@keyframes fade-in-index {
   0% {
     opacity: 0;
   }
@@ -122,9 +122,6 @@
             transform: scaleX(0);
     opacity: 0;
   }
-  5% {
-    opacity: 0;
-  }
   100% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
@@ -135,9 +132,6 @@
   0% {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
-    opacity: 0;
-  }
-  5% {
     opacity: 0;
   }
   100% {
@@ -172,30 +166,26 @@
 /* animation choose menu back */
 @-webkit-keyframes scale-x-back {
   0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  5% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
+    opacity: 1;
   }
   100% {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
+    opacity: 0;
   }
 }
 @keyframes scale-x-back {
   0% {
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  5% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
+    opacity: 1;
   }
   100% {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
+    opacity: 0;
   }
 }
 
@@ -218,6 +208,19 @@
   100% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
+  }
+}
+
+/* fade-in pages */
+@keyframes fade-in-index {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -622,6 +625,7 @@
 }
 
 .menu--bg {
+  position: relative;
   background-color: #fff;
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -732,12 +736,17 @@ h1 {
   font-family: "Shrikhand" , cursive;
 }
 
-.main__index {
-  -webkit-animation: fadeIn ease 3700ms;
-          animation: fadeIn ease 3700ms;
+.index__fade-in {
+  -webkit-animation: fade-in-index ease 3700ms forwards;
+          animation: fade-in-index ease 3700ms forwards;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+}
+
+.container {
+  -webkit-animation: fade-in ease 1000ms forwards;
+          animation: fade-in ease 1000ms forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 /*# sourceMappingURL=style.css.map */

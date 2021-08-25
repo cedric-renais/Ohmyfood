@@ -60,6 +60,7 @@
         animation: menu__slide 600ms ease-in 750ms both;
     }
     &--bg{
+        position: relative;
         background-color: $white;
         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
         border-radius: 1rem;

@@ -19,8 +19,12 @@ h1{
     font-family: "Shrikhand" , cursive;
 }
 
-.main__index{
-    animation: fadeIn ease 3700ms;
+.index__fade-in{
+    animation: fade-in-index ease 3700ms forwards;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+}
+
+.container{
+    animation: fade-in ease 1000ms forwards;
+    animation-iteration-count: 1;  
 }
