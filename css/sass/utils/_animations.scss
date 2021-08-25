@@ -1,72 +1,93 @@
 /* animation loader */
-@keyframes loader {
-    0% {
+@keyframes loader{
+    0%{
         transform: scale(0) translateY(0) rotateX(360deg);
         transform-origin: 50% 0%;
         color: $primary;
         text-shadow: $secondary 1px 1px, $secondary -1px 1px, $secondary -1px -1px, $secondary 1px -1px;
     }
-    25% {
+    25%{
         color: $primary;
         text-shadow: $secondary 1px 1px, $secondary -1px 1px, $secondary -1px -1px, $secondary 1px -1px;
     }
-    50% {
+    50%{
         transform: scale(1) translateY(+500%);
         color: $secondary;
         text-shadow: $tertiary 1px 1px, $tertiary -1px 1px, $tertiary -1px -1px, $tertiary 1px -1px;
     }
-    75% {
+    75%{
         color: $tertiary;
         text-shadow: $primary 1px 1px, $primary -1px 1px, $primary -1px -1px, $primary 1px -1px;
     }
-    100% {
+    100%{
         transform: scale(1) translateY(0) rotateX(360deg);
         transform-origin: 50% 0%;
     }
 }
-@keyframes fadeIn {
-    0% {
+@keyframes fadeIn{
+    0%{
         opacity: 0;
     }
     90%{
         opacity: 0;
     }
-    100% {
+    100%{
         opacity: 1;
     }
 }
 
 /* animation slide menu */
-  @keyframes menu__slide {
-    0% {
+ @keyframes menu__slide{
+    0%{
         transform: translateY(+25px);
         opacity: 0;
     }
-    100% {
+    100%{
         transform: translateY(0);
         opacity: 1;
     }
-  }
+}
   
-  /* animation choose menu */
-@keyframes scale-x {
-    0% {
+/* animation choose menu */
+@keyframes scale-x{
+    0%{
         transform: scaleX(0);
         opacity: 0;
     }
     5%{
         opacity: 0;
     }
-    100% {
+    100%{
         transform: scaleX(1);
         opacity: 1;
     }
-  }
-  @keyframes rotate360 {
-    0% {
+}
+@keyframes rotate360{
+    0%{
         transform: rotate(0);
     }
-    100% {
+    100%{
         transform: rotate(-360deg);
     }
-  }
+}
+
+/* animation choose menu back */
+@keyframes scale-x-back{
+    0%{
+        transform: scaleX(0);
+    }
+    5%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0);
+    }
+}
+@keyframes rotate360-back{
+    0%{
+        transform: rotate(+360deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

@@ -65,13 +65,10 @@
         border-radius: 1rem;
         padding: 1vh 1vh;
         margin: 2vh 2vh;
-        cursor: pointer;
+        cursor: pointer;    
         & h4{
             font-size: 2.2vh;
             margin: 0.5vh 0;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
         }
         .menu__accompaniment-price__container{
             display: flex;
@@ -88,9 +85,10 @@
         }
         .menu__price{
             font-size: 2vh;
+            padding: 0 1vh;
+            transition: 600ms ease-in-out;
         }
         &:hover .menu__choose{
-            visibility: visible;
             transform-origin: right;
             animation: scale-x 600ms ease-in-out both;
             & i{
@@ -98,10 +96,9 @@
             }
         }
         &:hover .menu__price{
-            padding-right: 7vh;
+            padding: 0 7vh;
             transition: 600ms ease-in-out;
         }
-
     }
 }
 
@@ -114,11 +111,13 @@
     position: absolute;
     top: 0;
     right: 0;
-    visibility: hidden;
+    animation: scale-x-back 600ms ease-in-out both;
+    transform-origin: right;
     & i{
         font-size: 3.5vh;
         padding: 0 2vh;
         color: $white;
+        animation: rotate360-back 600ms ease-in-out both;
     }
 }
 

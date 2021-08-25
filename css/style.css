@@ -169,6 +169,58 @@
   }
 }
 
+/* animation choose menu back */
+@-webkit-keyframes scale-x-back {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  5% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  100% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+@keyframes scale-x-back {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  5% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  100% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+
+@-webkit-keyframes rotate360-back {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
+@keyframes rotate360-back {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+}
+
 /* header index  + loader */
 .header__index .header__index--loader {
   -webkit-animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
@@ -411,9 +463,67 @@
 
 .restaurant .restaurant__thumbnail i {
   position: absolute;
-  right: 1.5vh;
+  right: 1.8vh;
   bottom: 2.5vh;
   font-size: 3.5vh;
+}
+
+.fa-heart {
+  background: transparent;
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #9356DC), to(#FF79DC));
+  background: linear-gradient(to bottom, #9356DC 5%, #FF79DC 100%);
+  color: transparent;
+  -webkit-transition: color 300ms ease-in;
+  transition: color 300ms ease-in;
+  font-weight: 700;
+  -webkit-background-clip: text;
+}
+
+.footer__container {
+  position: relative;
+  background-color: #353535;
+  color: #fff;
+  padding: 1vh 3vh 3vh 3vh;
+}
+
+.footer__container h2 {
+  font-family: "Shrikhand" , cursive;
+  font-size: 2.5vh;
+  font-weight: 400;
+}
+
+.footer__container div {
+  margin-bottom: 1vh;
+}
+
+.footer__container a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto" , sans-serif;
+  font-size: 2.5vh;
+  font-weight: 400;
+}
+
+.footer__container .fa-utensils {
+  font-size: 2.5vh;
+  margin-right: 1.5vh;
+}
+
+.footer__container .fa-hands-helping {
+  font-size: 2vh;
+  margin-right: 1vh;
+}
+
+.footer__container .footer__container--link:hover {
+  border-bottom: 1px solid #FF79DC;
+}
+
+.footer__container .footer__container--link:active {
+  color: #FF79DC;
 }
 
 .main__restaurant {
@@ -524,9 +634,6 @@
 .menu--bg h4 {
   font-size: 2.2vh;
   margin: 0.5vh 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .menu--bg .menu__accompaniment-price__container {
@@ -550,10 +657,12 @@
 
 .menu--bg .menu__price {
   font-size: 2vh;
+  padding: 0 1vh;
+  -webkit-transition: 600ms ease-in-out;
+  transition: 600ms ease-in-out;
 }
 
 .menu--bg:hover .menu__choose {
-  visibility: visible;
   -webkit-transform-origin: right;
           transform-origin: right;
   -webkit-animation: scale-x 600ms ease-in-out both;
@@ -566,7 +675,7 @@
 }
 
 .menu--bg:hover .menu__price {
-  padding-right: 7vh;
+  padding: 0 7vh;
   -webkit-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
 }
@@ -584,13 +693,18 @@
   position: absolute;
   top: 0;
   right: 0;
-  visibility: hidden;
+  -webkit-animation: scale-x-back 600ms ease-in-out both;
+          animation: scale-x-back 600ms ease-in-out both;
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 
 .menu__choose i {
   font-size: 3.5vh;
   padding: 0 2vh;
   color: #fff;
+  -webkit-animation: rotate360-back 600ms ease-in-out both;
+          animation: rotate360-back 600ms ease-in-out both;
 }
 
 .order {
@@ -605,49 +719,6 @@
 
 .btn__order {
   padding: 2vh 6vh;
-}
-
-.footer__container {
-  position: relative;
-  background-color: #353535;
-  color: #fff;
-  padding: 1vh 3vh 3vh 3vh;
-}
-
-.footer__container h2 {
-  font-family: "Shrikhand" , cursive;
-  font-size: 2.5vh;
-  font-weight: 400;
-}
-
-.footer__container div {
-  margin-bottom: 1vh;
-}
-
-.footer__container a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Roboto" , sans-serif;
-  font-size: 2.5vh;
-  font-weight: 400;
-}
-
-.footer__container .fa-utensils {
-  font-size: 2.5vh;
-  margin-right: 1.5vh;
-}
-
-.footer__container .fa-hands-helping {
-  font-size: 2vh;
-  margin-right: 1vh;
-}
-
-.footer__container .footer__container--link:hover {
-  border-bottom: 1px solid #FF79DC;
-}
-
-.footer__container .footer__container--link:active {
-  color: #FF79DC;
 }
 
 /***** General setting *****/

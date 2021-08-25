@@ -55,9 +55,21 @@
         }
         & i{
             position: absolute;
-            right: 1.5vh;
+            right: 1.8vh;
             bottom: 2.5vh;
             font-size: 3.5vh;
         }
     }
 }
+
+.fa-heart {
+    background: transparent;
+    cursor: pointer;
+  }
+  .fa-heart:hover {
+    background: $linear-gradient-inverse;
+    color: transparent;
+    transition: color 300ms ease-in;
+    font-weight: 700;
+    -webkit-background-clip: text;
+  }
