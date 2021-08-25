@@ -506,30 +506,47 @@
           animation: menu__slide 600ms ease-in 600ms both;
 }
 
+.menu--anim04 {
+  -webkit-animation: menu__slide 600ms ease-in 750ms both;
+          animation: menu__slide 600ms ease-in 750ms both;
+}
+
 .menu--bg {
   background-color: #fff;
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 1rem;
-  padding: 1vh 3vh;
+  padding: 1vh 1vh;
   margin: 2vh 2vh;
   cursor: pointer;
 }
 
 .menu--bg h4 {
-  font-size: 2.5vh;
-  margin: 0.5vh 1vh;
+  font-size: 2.2vh;
+  margin: 0.5vh 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.menu--bg div {
+.menu--bg .menu__accompaniment-price__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 1vh;
-  font-size: 2.2vh;
+}
+
+.menu--bg .menu__accompaniment span {
+  font-size: 1.9vh;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.menu--bg .menu__price {
+  font-size: 2vh;
 }
 
 .menu--bg:hover .menu__choose {
@@ -540,6 +557,7 @@
           animation: scale-x 600ms ease-in-out both;
 }
 
+e
 .menu--bg:hover .menu__choose i {
   -webkit-animation: rotate360 600ms ease-in-out both;
           animation: rotate360 600ms ease-in-out both;

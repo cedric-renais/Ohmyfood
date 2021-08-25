@@ -56,27 +56,42 @@
     &--anim03{
         animation: menu__slide 600ms ease-in 600ms both;
     }
+    &--anim04{
+        animation: menu__slide 600ms ease-in 750ms both;
+    }
     &--bg{
         background-color: $white;
         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
         border-radius: 1rem;
-        padding: 1vh 3vh;
+        padding: 1vh 1vh;
         margin: 2vh 2vh;
         cursor: pointer;
         & h4{
-            font-size: 2.5vh;
-            margin: 0.5vh 1vh;
+            font-size: 2.2vh;
+            margin: 0.5vh 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
-        & div{
+        .menu__accompaniment-price__container{
             display: flex;
             justify-content: space-between;
-            padding: 0 1vh;
-            font-size: 2.2vh;
+        }
+        .menu__accompaniment{
+            & span{
+                font-size: 1.9vh;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        .menu__price{
+            font-size: 2vh;
         }
         &:hover .menu__choose{
             visibility: visible;
             transform-origin: right;
-            animation: scale-x 600ms ease-in-out both;
+            animation: scale-x 600ms ease-in-out both;e
             & i{
                 animation: rotate360 600ms ease-in-out both; 
             }
