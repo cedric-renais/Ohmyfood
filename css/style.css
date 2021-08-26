@@ -407,6 +407,8 @@
 #Restaurants {
   background-color: #F6F6F6;
   padding: 1vh 1vh 3vh 1vh;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 #Restaurants h2 {
@@ -555,6 +557,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
+  max-width: 1024px;
   margin-top: -5vh;
   width: 100%;
   background-color: #F6F6F6;
@@ -727,7 +730,6 @@
 body {
   font-family: "Roboto" , sans-serif;
   margin: 0 auto;
-  max-width: 1280px;
 }
 
 h1 {
