@@ -1,7 +1,10 @@
 .functioning{
-    margin: 6vh 3vh 6vh 3vh;
+    width: 90%;
+    max-width: 400px;
+    margin: 5vh auto;
     & h2{
         font-size: 2.8vh;
+        margin-left: 3vh;
     }
 }
 
