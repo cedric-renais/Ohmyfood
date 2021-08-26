@@ -1,45 +1,46 @@
-@mixin header__title {
-    font-size: $header__font-size;
-    text-align: $header__center;
-    margin: $header__margin;
+/* Header */
+@mixin HeaderTitle {
+    font-size: $Header--FontSize;
+    text-align: $Header--Center;
+    margin: $Header--Margin;
 }
 
-/* base button */
-@mixin button {
-    background: $linear-gradient;
+/* Base Button */
+@mixin Button {
+    background: $LinearGradient;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-    border-radius: 10rem;
-    padding: .8rem 1.5rem;
+    border-radius: 15vh;
+    padding: 1.5vh 3vh;
     font-size: 2vh;
     border: none;
     display: inline-block;
     cursor: pointer;
-    color: $white;
-    font-weight: bold;
+    color: $White;
+    font-weight: 700;
     text-decoration:none;
     opacity: 1;
 }
 
-/* inverse gradient button */
-@mixin button-bg {
-    background: $linear-gradient-inverse;
+/* InverseGradientButton */
+@mixin Button--Inverse {
+    background: $LinearGradient--Inverse;
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
     opacity: 0.75;
-    transition: opacity 250ms;
+    transition: opacity 300ms;
 }
 
-/* small shadow */
-@mixin box-shadow{
+/* SmallShadow */
+@mixin BoxShadow{
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* big shadow */
-@mixin box-shadow__big {
+/* BigShadow */
+@mixin BoxShadow--Big {
     box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
-/* scaling effect */
-@mixin scaling {
+/* ScalingEffect */
+@mixin Scaling {
     transform: scale(1.03);
     transition: 150ms ease-in-out;
 } 

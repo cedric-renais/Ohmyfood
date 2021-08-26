@@ -1,10 +1,16 @@
-/* base button */
-/* inverse gradient button */
-/* small shadow */
-/* big shadow */
-/* scaling effect */
-/* animation loader */
-@-webkit-keyframes loader {
+/* Color */
+/* Width */
+/* Header */
+/* functioning */
+/* footer */
+/* Header */
+/* Base Button */
+/* InverseGradientButton */
+/* SmallShadow */
+/* BigShadow */
+/* ScalingEffect */
+/* Animation Loader */
+@-webkit-keyframes Loader {
   0% {
     -webkit-transform: scale(0) translateY(0) rotateX(360deg);
             transform: scale(0) translateY(0) rotateX(360deg);
@@ -34,7 +40,7 @@
             transform-origin: 50% 0%;
   }
 }
-@keyframes loader {
+@keyframes Loader {
   0% {
     -webkit-transform: scale(0) translateY(0) rotateX(360deg);
             transform: scale(0) translateY(0) rotateX(360deg);
@@ -65,7 +71,7 @@
   }
 }
 
-@-webkit-keyframes fade-in-index {
+@-webkit-keyframes FadeIndex {
   0% {
     opacity: 0;
   }
@@ -77,7 +83,7 @@
   }
 }
 
-@keyframes fade-in-index {
+@keyframes FadeIndex {
   0% {
     opacity: 0;
   }
@@ -89,8 +95,8 @@
   }
 }
 
-/* animation slide menu */
-@-webkit-keyframes menu__slide {
+/* Animation SlideMenu */
+@-webkit-keyframes SlideMenu {
   0% {
     -webkit-transform: translateY(25px);
             transform: translateY(25px);
@@ -102,7 +108,7 @@
     opacity: 1;
   }
 }
-@keyframes menu__slide {
+@keyframes SlideMenu {
   0% {
     -webkit-transform: translateY(25px);
             transform: translateY(25px);
@@ -115,8 +121,8 @@
   }
 }
 
-/* animation choose menu */
-@-webkit-keyframes scale-x {
+/* Animation Menu__Choose */
+@-webkit-keyframes ScaleX {
   0% {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -128,7 +134,7 @@
     opacity: 1;
   }
 }
-@keyframes scale-x {
+@keyframes ScaleX {
   0% {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -141,7 +147,7 @@
   }
 }
 
-@-webkit-keyframes rotate360 {
+@-webkit-keyframes Rotate360 {
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
@@ -152,7 +158,7 @@
   }
 }
 
-@keyframes rotate360 {
+@keyframes Rotate360 {
   0% {
     -webkit-transform: rotate(0);
             transform: rotate(0);
@@ -163,8 +169,8 @@
   }
 }
 
-/* animation choose menu back */
-@-webkit-keyframes scale-x-back {
+/* animation Menu__Choose--back */
+@-webkit-keyframes ScaleX--Back {
   0% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
@@ -176,7 +182,7 @@
     opacity: 0;
   }
 }
-@keyframes scale-x-back {
+@keyframes ScaleX--Back {
   0% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
@@ -189,7 +195,7 @@
   }
 }
 
-@-webkit-keyframes rotate360-back {
+@-webkit-keyframes Rotate360--Back {
   0% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
@@ -200,7 +206,7 @@
   }
 }
 
-@keyframes rotate360-back {
+@keyframes Rotate360--Back {
   0% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
@@ -211,8 +217,8 @@
   }
 }
 
-/* fade-in pages */
-@-webkit-keyframes fade-in {
+/* FadeIn pages */
+@-webkit-keyframes FadeIn {
   0% {
     opacity: 0;
   }
@@ -220,7 +226,7 @@
     opacity: 1;
   }
 }
-@keyframes fade-in {
+@keyframes FadeIn {
   0% {
     opacity: 0;
   }
@@ -229,115 +235,114 @@
   }
 }
 
-/* header index  + loader */
-.header__index .header__index--loader {
-  -webkit-animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
-          animation: loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
+/* Header__Index + Loader */
+.Header__Index--loader {
+  -webkit-animation: Loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
+          animation: Loader 3000ms cubic-bezier(0.455, 0.03, 0.515, 0.955) backwards 300ms;
 }
 
-.header__index .header__index--loader h1 {
+.Header__Index--loader h1 {
   font-size: 5vh;
   text-align: center;
   margin: 0;
 }
 
-/* header home */
-.header__home h1 {
+/* Header__Home */
+.Header__Home h1 {
   font-size: 5vh;
   text-align: center;
   margin: 0;
 }
 
-/* header resaurant + back arrow */
-.header__restaurant {
+/* Header__Restaurant + BackArrow */
+.Header__Restaurant {
   position: relative;
 }
 
-.header__restaurant a {
+.Header__Restaurant a {
   text-decoration: none;
 }
 
-.header__restaurant i {
+.Header__Restaurant i {
   position: absolute;
   margin: 2.5vh 0 0 1.5vh;
   font-size: 2.5vh;
   color: black;
 }
 
-.header__restaurant i:hover {
+.Header__Restaurant i:hover {
   color: #FF79DC;
 }
 
-.header__restaurant i:active {
+.Header__Restaurant i:active {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
   -webkit-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
 
-.header__restaurant h1 {
+.Header__Restaurant h1 {
   font-size: 5vh;
   text-align: center;
   margin: 0;
 }
 
-.location {
+.Location {
   background-color: #EAEAEA;
-  padding: 1rem;
+  padding: 2vh;
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
           box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
   font-size: 2.5vh;
   text-align: center;
 }
 
-.location i {
+.Location i {
   margin-right: 2vh;
 }
 
-.info {
+.Info {
   background-color: #F6F6F6;
   padding: .5vh 0 5vh 0;
   text-align: center;
 }
 
-.info h2 {
+.Info h2 {
   font-size: 3.3vh;
   margin: 2.5vh 3vh 0 3vh;
 }
 
-.info p {
+.Info p {
   font-size: 2.3vh;
+  font-weight: 300;
   margin: 1vh 1.5vh 3.5vh 1.5vh;
 }
 
-.btn {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #FF79DC), to(#9356DC));
-  background: linear-gradient(to bottom, #FF79DC 5%, #9356DC 100%);
+.Btn {
+  background: linear-gradient(165deg, #FF79DC 0%, #9356DC 100%);
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 10rem;
-  padding: .8rem 1.5rem;
+  border-radius: 15vh;
+  padding: 1.5vh 3vh;
   font-size: 2vh;
   border: none;
   display: inline-block;
   cursor: pointer;
   color: #fff;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   opacity: 1;
 }
 
-.btn:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #9356DC), to(#FF79DC));
-  background: linear-gradient(to bottom, #9356DC 5%, #FF79DC 100%);
+.Btn:hover {
+  background: linear-gradient(165deg, #9356DC 0%, #FF79DC 100%);
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
   opacity: 0.75;
-  -webkit-transition: opacity 250ms;
-  transition: opacity 250ms;
+  -webkit-transition: opacity 300ms;
+  transition: opacity 300ms;
 }
 
-.btn:active {
+.Btn:active {
   -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.03);
@@ -346,17 +351,17 @@
   transition: 150ms ease-in-out;
 }
 
-.functioning {
+.Functioning {
   width: 90%;
   max-width: 400px;
-  margin: 1.5vh auto;
+  margin: 7vh auto;
 }
 
-.functioning h2 {
-  font-size: 2.8vh;
+.Functioning h2 {
+  font-size: 2.5vh;
 }
 
-.functioning__menu {
+.Functioning__Instruction {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -366,71 +371,71 @@
   background-color: #F6F6F6;
   -webkit-box-shadow: 0 3px 3px 0 #EAEAEA;
           box-shadow: 0 3px 3px 0 #EAEAEA;
-  border-radius: 1rem;
-  padding: .25rem 0 .25rem 0;
-  margin-bottom: 2rem;
+  border-radius: 2vh;
+  margin-bottom: 5vh;
 }
 
-.functioning__menu div {
+.Functioning__Instruction div {
   background-color: #9356DC;
-  padding: .25rem .5rem;
+  padding: 0.5vh 1vh;
   border-radius: 50%;
-  margin-left: -1vh;
+  margin-left: -1.5vh;
   color: white;
-  font-size: 2.3vh;
+  font-size: 2vh;
   margin-right: 2vh;
 }
 
-.functioning__menu i {
+.Functioning__Instruction i {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 3vh;
+  font-size: 2.5vh;
   margin-right: 2vh;
 }
 
-.functioning__menu h3 {
-  font-size: 2.3vh;
+.Functioning__Instruction h3 {
+  font-size: 2.5vh;
+  font-weight: 300;
 }
 
-.functioning__menu .fas--color {
+.Functioning__Instruction .fas--color {
   color: #9356DC;
 }
 
-.functioning__menu--color {
+.Functioning__Instruction--Color {
   background-color: #f5e2ffce;
 }
 
-#restaurants {
+#Restaurants {
   background-color: #F6F6F6;
   padding: 1vh 1vh 3vh 1vh;
 }
 
-#restaurants h2 {
+#Restaurants h2 {
   font-size: 3vh;
   margin-left: 1.5vh;
 }
 
-.restaurant a {
+.Restaurant a {
   text-decoration: none;
   color: black;
 }
 
-.restaurant .restaurant__thumbnail {
+.Restaurant .Restaurant__Thumbnail {
   background-color: white;
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 1rem 1rem;
+  border-radius: 2vh;
   margin: 0 1.5vh 4vh 1.5vh;
   position: relative;
 }
 
-.restaurant .restaurant__thumbnail:hover {
+.Restaurant .Restaurant__Thumbnail:hover {
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
   -webkit-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
 
-.restaurant .restaurant__thumbnail:active {
+.Restaurant .Restaurant__Thumbnail:active {
   -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.03);
@@ -439,15 +444,15 @@
   transition: 150ms ease-in-out;
 }
 
-.restaurant .restaurant__thumbnail img {
+.Restaurant .Restaurant__Thumbnail img {
   width: 100%;
   height: 20vh;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 2vh 2vh 0 0;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.restaurant .restaurant__thumbnail .new {
+.Restaurant .Restaurant__Thumbnail__New {
   position: absolute;
   top: 1.5vh;
   right: 1.5vh;
@@ -456,61 +461,46 @@
   background-color: #99E2D0;
   color: #2c9c81;
   font-weight: 600;
-  border-radius: .2rem;
+  border-radius: 0.5vh;
 }
 
-.restaurant .restaurant__thumbnail h3 {
+.Restaurant .Restaurant__Thumbnail h3 {
   margin: 0.5vh 1vh;
   font-size: 2.4vh;
 }
 
-.restaurant .restaurant__thumbnail p {
+.Restaurant .Restaurant__Thumbnail p {
   margin: 0.5vh 1vh;
   padding-bottom: 0.5vh;
   font-size: 2.3vh;
-  font-weight: 400;
+  font-weight: 300;
 }
 
-.restaurant .restaurant__thumbnail i {
+.Restaurant .Restaurant__Thumbnail i {
   position: absolute;
   right: 2.2vh;
   bottom: 2.5vh;
   font-size: 3.5vh;
 }
 
-.fa-heart {
-  background: transparent;
-  cursor: pointer;
-}
-
-.fa-heart:hover {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #9356DC), to(#FF79DC));
-  background: linear-gradient(to bottom, #9356DC 5%, #FF79DC 100%);
-  color: transparent;
-  -webkit-transition: color 300ms ease-in;
-  transition: color 300ms ease-in;
-  font-weight: 700;
-  -webkit-background-clip: text;
-}
-
-.footer__container {
+.Footer {
   position: relative;
   background-color: #353535;
   color: #fff;
   padding: 1vh 3vh 3vh 3vh;
 }
 
-.footer__container h2 {
+.Footer h2 {
   font-family: "Shrikhand" , cursive;
   font-size: 2.5vh;
   font-weight: 400;
 }
 
-.footer__container div {
+.Footer div {
   margin-bottom: 1vh;
 }
 
-.footer__container a {
+.Footer a {
   text-decoration: none;
   color: #fff;
   font-family: "Roboto" , sans-serif;
@@ -518,25 +508,25 @@
   font-weight: 400;
 }
 
-.footer__container .fa-utensils {
+.Footer .fa-utensils {
   font-size: 2.5vh;
   margin-right: 1.5vh;
 }
 
-.footer__container .fa-hands-helping {
+.Footer .fa-hands-helping {
   font-size: 2vh;
   margin-right: 1vh;
 }
 
-.footer__container .footer__container--link:hover {
+.Footer--Link:hover {
   border-bottom: 1px solid #FF79DC;
 }
 
-.footer__container .footer__container--link:active {
+.Footer--Link:active {
   color: #99E2D0;
 }
 
-.main__restaurant {
+.Restaurant__Banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -549,14 +539,14 @@
           flex-direction: column;
 }
 
-.main__restaurant img {
+.Restaurant__Banner img {
   width: 100%;
   height: 30vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.restaurant__container {
+.Restaurant__Container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -565,14 +555,14 @@
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  margin-top: -3rem;
+  margin-top: -5vh;
   width: 100%;
   background-color: #F6F6F6;
-  padding: 2rem 0;
+  padding: 3vh 0;
   border-radius: 1.5rem 1.5rem 0 0;
 }
 
-.restaurant__title {
+.Restaurant__Title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,70 +574,70 @@
           justify-content: space-between;
 }
 
-.restaurant__title h2 {
+.Restaurant__Title h2 {
   font-family: "Shrikhand" , cursive;
   font-size: 3.3vh;
   margin: 0 2vh;
 }
 
-.restaurant__title i {
+.Restaurant__Title i {
   font-size: 3.3vh;
   margin-right: 2vh;
 }
 
-.menu {
+.Restaurant__Menu {
   background-color: #F6F6F6;
 }
 
-.menu h3 {
+.Restaurant__Menu h3 {
   padding-top: 1vh;
   margin-left: 2vh;
   font-size: 2.8vh;
   text-transform: uppercase;
 }
 
-.menu--border {
-  padding-bottom: .2rem;
+.Restaurant__Menu--Border {
+  padding-bottom: 0.5vh;
   border-bottom: 3px solid #99E2D0;
 }
 
-.menu--anim01 {
-  -webkit-animation: menu__slide 600ms ease-in 300ms both;
-          animation: menu__slide 600ms ease-in 300ms both;
+.Restaurant__Menu--Anim01 {
+  -webkit-animation: SlideMenu 600ms ease-in 300ms both;
+          animation: SlideMenu 600ms ease-in 300ms both;
 }
 
-.menu--anim02 {
-  -webkit-animation: menu__slide 600ms ease-in 450ms both;
-          animation: menu__slide 600ms ease-in 450ms both;
+.Restaurant__Menu--Anim02 {
+  -webkit-animation: SlideMenu 600ms ease-in 450ms both;
+          animation: SlideMenu 600ms ease-in 450ms both;
 }
 
-.menu--anim03 {
-  -webkit-animation: menu__slide 600ms ease-in 600ms both;
-          animation: menu__slide 600ms ease-in 600ms both;
+.Restaurant__Menu--Anim03 {
+  -webkit-animation: SlideMenu 600ms ease-in 600ms both;
+          animation: SlideMenu 600ms ease-in 600ms both;
 }
 
-.menu--anim04 {
-  -webkit-animation: menu__slide 600ms ease-in 750ms both;
-          animation: menu__slide 600ms ease-in 750ms both;
+.Restaurant__Menu--Anim04 {
+  -webkit-animation: SlideMenu 600ms ease-in 750ms both;
+          animation: SlideMenu 600ms ease-in 750ms both;
 }
 
-.menu--bg {
+.Restaurant__Menu--Background {
   position: relative;
   background-color: #fff;
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-  border-radius: 1rem;
+  border-radius: 2vh;
   padding: 1vh 1vh;
   margin: 2vh 2vh;
   cursor: pointer;
 }
 
-.menu--bg h4 {
+.Restaurant__Menu--Background h4 {
   font-size: 2.2vh;
   margin: 0.5vh 0;
 }
 
-.menu--bg .menu__accompaniment-price__container {
+.Restaurant__Menu--Background .Restaurant__Menu__AccompanimentPrice {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -656,42 +646,43 @@
           justify-content: space-between;
 }
 
-.menu--bg .menu__accompaniment {
+.Restaurant__Menu--Background .Restaurant__Menu__Accompaniment {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.menu--bg .menu__accompaniment span {
+.Restaurant__Menu--Background .Restaurant__Menu__Accompaniment span {
   font-size: 1.9vh;
+  font-weight: 300;
 }
 
-.menu--bg .menu__price {
+.Restaurant__Menu--Background .Restaurant__Menu__Price {
   font-size: 2vh;
   padding: 0 1vh;
   -webkit-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
 }
 
-.menu--bg:hover .menu__choose {
+.Restaurant__Menu--Background:hover .Restaurant__Menu__Choose {
   -webkit-transform-origin: right;
           transform-origin: right;
-  -webkit-animation: scale-x 600ms ease-in-out both;
-          animation: scale-x 600ms ease-in-out both;
+  -webkit-animation: ScaleX 600ms ease-in-out both;
+          animation: ScaleX 600ms ease-in-out both;
 }
 
-.menu--bg:hover .menu__choose i {
-  -webkit-animation: rotate360 600ms ease-in-out both;
-          animation: rotate360 600ms ease-in-out both;
+.Restaurant__Menu--Background:hover .Restaurant__Menu__Choose i {
+  -webkit-animation: Rotate360 600ms ease-in-out both;
+          animation: Rotate360 600ms ease-in-out both;
 }
 
-.menu--bg:hover .menu__price {
+.Restaurant__Menu--Background:hover .Restaurant__Menu__Price {
   padding: 0 8vh;
   -webkit-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
 }
 
-.menu__choose {
+.Restaurant__Menu__Choose {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -700,39 +691,39 @@
           align-items: center;
   background: #99E2D0;
   height: 100%;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 2vh 2vh 0;
   position: absolute;
   top: 0;
   right: 0;
-  -webkit-animation: scale-x-back 600ms ease-in-out both;
-          animation: scale-x-back 600ms ease-in-out both;
+  -webkit-animation: ScaleX--Back 600ms ease-in-out both;
+          animation: ScaleX--Back 600ms ease-in-out both;
   -webkit-transform-origin: right;
           transform-origin: right;
 }
 
-.menu__choose i {
+.Restaurant__Menu__Choose i {
   font-size: 3.5vh;
   padding: 0 2vh;
   color: #fff;
-  -webkit-animation: rotate360-back 600ms ease-in-out both;
-          animation: rotate360-back 600ms ease-in-out both;
+  -webkit-animation: Rotate360--Back 600ms ease-in-out both;
+          animation: Rotate360--Back 600ms ease-in-out both;
 }
 
-.order {
+.Restaurant__Order {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 7vh;
+  margin: 7vh 0 3.5vh 0;
 }
 
-.btn__order {
+.Restaurant__Order__Btn {
   padding: 2vh 6vh;
 }
 
-/***** General setting *****/
+/* GeneralSetting */
 body {
   font-family: "Roboto" , sans-serif;
   margin: 0 auto;
@@ -743,17 +734,31 @@ h1 {
   font-family: "Shrikhand" , cursive;
 }
 
-.index__fade-in {
-  -webkit-animation: fade-in-index ease 3700ms forwards;
-          animation: fade-in-index ease 3700ms forwards;
+/* Animations */
+.FadeIndex {
+  -webkit-animation: FadeIndex ease 3700ms forwards;
+          animation: FadeIndex ease 3700ms forwards;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
 }
 
-.container {
-  -webkit-animation: fade-in ease 1000ms forwards;
-          animation: fade-in ease 1000ms forwards;
+.Fadepages {
+  -webkit-animation: FadeIn ease 1000ms forwards;
+          animation: FadeIn ease 1000ms forwards;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
+}
+
+.fa-heart {
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  background: linear-gradient(165deg, #9356DC 0%, #FF79DC 100%);
+  color: transparent;
+  -webkit-transition: color 600ms ease;
+  transition: color 600ms ease;
+  font-weight: 700;
+  -webkit-background-clip: text;
 }
 /*# sourceMappingURL=style.css.map */

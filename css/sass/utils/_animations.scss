@@ -1,30 +1,30 @@
-/* animation loader */
-@keyframes loader{
+/* Animation Loader */
+@keyframes Loader{
     0%{
         transform: scale(0) translateY(0) rotateX(360deg);
         transform-origin: 50% 0%;
-        color: $primary;
-        text-shadow: $secondary 1px 1px, $secondary -1px 1px, $secondary -1px -1px, $secondary 1px -1px;
+        color: $Primary;
+        text-shadow: $Secondary 1px 1px, $Secondary -1px 1px, $Secondary -1px -1px, $Secondary 1px -1px;
     }
     25%{
-        color: $primary;
-        text-shadow: $secondary 1px 1px, $secondary -1px 1px, $secondary -1px -1px, $secondary 1px -1px;
+        color: $Primary;
+        text-shadow: $Secondary 1px 1px, $Secondary -1px 1px, $Secondary -1px -1px, $Secondary 1px -1px;
     }
     50%{
         transform: scale(1) translateY(+500%);
-        color: $secondary;
-        text-shadow: $tertiary 1px 1px, $tertiary -1px 1px, $tertiary -1px -1px, $tertiary 1px -1px;
+        color: $Secondary;
+        text-shadow: $Tertiary 1px 1px, $Tertiary -1px 1px, $Tertiary -1px -1px, $Tertiary 1px -1px;
     }
     75%{
-        color: $tertiary;
-        text-shadow: $primary 1px 1px, $primary -1px 1px, $primary -1px -1px, $primary 1px -1px;
+        color: $Tertiary;
+        text-shadow: $Primary 1px 1px, $Primary -1px 1px, $Primary -1px -1px, $Primary 1px -1px;
     }
     100%{
         transform: scale(1) translateY(0) rotateX(360deg);
         transform-origin: 50% 0%;
     }
 }
-@keyframes fade-in-index{
+@keyframes FadeIndex{
     0%{
         opacity: 0;
     }
@@ -36,8 +36,8 @@
     }
 }
 
-/* animation slide menu */
- @keyframes menu__slide{
+/* Animation SlideMenu */
+ @keyframes SlideMenu{
     0%{
         transform: translateY(+25px);
         opacity: 0;
@@ -48,8 +48,8 @@
     }
 }
   
-/* animation choose menu */
-@keyframes scale-x{
+/* Animation Menu__Choose */
+@keyframes ScaleX{
     0%{
         transform: scaleX(0);
         opacity: 0;
@@ -59,7 +59,7 @@
         opacity: 1;
     }
 }
-@keyframes rotate360{
+@keyframes Rotate360{
     0%{
         transform: rotate(0);
     }
@@ -68,8 +68,8 @@
     }
 }
 
-/* animation choose menu back */
-@keyframes scale-x-back{
+/* animation Menu__Choose--back */
+@keyframes ScaleX--Back{
     0%{
         transform: scaleX(1);
         opacity: 1;
@@ -79,7 +79,7 @@
         opacity: 0;
     }
 }
-@keyframes rotate360-back{
+@keyframes Rotate360--Back{
     0%{
         transform: rotate(+360deg);
     }
@@ -88,8 +88,8 @@
     }
 }
 
-/* fade-in pages */
-@keyframes fade-in{
+/* FadeIn pages */
+@keyframes FadeIn{
     0%{
         opacity: 0;
     }

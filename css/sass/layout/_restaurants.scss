@@ -1,5 +1,5 @@
-#restaurants{
-    background-color: $background;
+#Restaurants{
+    background-color: $Background;
     padding: 1vh 1vh 3vh 1vh;
     & h2{
         font-size: 3vh;
@@ -7,41 +7,41 @@
     }
 }
 
-.restaurant{
+.Restaurant{
     & a{
         text-decoration: none;
         color: black;
     }
-    .restaurant__thumbnail{
+    .Restaurant__Thumbnail{
         background-color: white;
         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-        border-radius: 1rem 1rem; 
+        border-radius: 2vh; 
         margin: 0 1.5vh 4vh 1.5vh;
         position: relative;
         &:hover{
-           @include box-shadow;
+           @include BoxShadow;
             transition: 150ms ease-in-out;        
         }
         &:active{
-            @include box-shadow__big;
-            @include scaling;
+            @include BoxShadow--Big;
+            @include Scaling;
         }
         & img{
-            width: $width;
+            width: $Width;
             height: 20vh;
-            border-radius: 1rem 1rem 0 0;
+            border-radius: 2vh 2vh 0 0;
             object-fit: cover;
         }
-        .new{
+        &__New{
             position: absolute;
             top: 1.5vh;
             right: 1.5vh;
             font-size: 1.5vh;
             padding: 1vh 1.5vh;
-            background-color: $tertiary;
-            color: darken($tertiary, 35);
+            background-color: $Tertiary;
+            color: darken($Tertiary, 35);
             font-weight: 600;
-            border-radius: .2rem;
+            border-radius: 0.5vh;
         }
         & h3{
             margin: 0.5vh 1vh;
@@ -51,7 +51,7 @@
             margin: 0.5vh 1vh;
             padding-bottom: 0.5vh;
             font-size: 2.3vh;
-            font-weight: 400;
+            font-weight: 300;
         }
         & i{
             position: absolute;
@@ -61,15 +61,3 @@
         }
     }
 }
-
-.fa-heart {
-    background: transparent;
-    cursor: pointer;
-  }
-  .fa-heart:hover {
-    background: $linear-gradient-inverse;
-    color: transparent;
-    transition: color 300ms ease-in;
-    font-weight: 700;
-    -webkit-background-clip: text;
-  }

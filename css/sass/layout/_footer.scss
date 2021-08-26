@@ -1,37 +1,37 @@
-.footer__container{
+.Footer{
     position: relative;
     background-color: #353535;
-    color: $white;
+    color: $White;
     padding: 1vh 3vh 3vh 3vh;
     & h2{
         font-family: "Shrikhand" , cursive;
-        font-size: $footer__font-size;
-        font-weight: $footer__font-weight;  
+        font-size: $Footer--FontSize;
+        font-weight: $Footer--FontWeight;  
     }
     & div{
         margin-bottom: 1vh;
     }
     & a{
         text-decoration: none;
-        color: $white;
+        color: $White;
         font-family: "Roboto" , sans-serif;
-        font-size: $footer__font-size;
-        font-weight: $footer__font-weight;
+        font-size: $Footer--FontSize;
+        font-weight: $Footer--FontWeight;
     }
     .fa-utensils{
-        font-size: $footer__font-size;
+        font-size: $Footer--FontSize;
         margin-right: 1.5vh;
     }
     .fa-hands-helping{
         font-size: 2vh;
         margin-right: 1vh;
     }
-    .footer__container--link{
+    &--Link{
         &:hover{
-            border-bottom: 1px solid $secondary;
+            border-bottom: 1px solid $Secondary;
         }
         &:active{
-            color: $tertiary;
+            color: $Tertiary;
         }
     }
 }

@@ -1,26 +1,26 @@
-.main__restaurant{
+.Restaurant__Banner{
     display: flex;
     align-items: center;
     flex-direction: column;
     & img{
-        width: $width;
+        width: $Width;
         height: 30vh;
         object-fit: cover;
     }
 }
 
-.restaurant__container{
+.Restaurant__Container{
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-top: -3rem;
+    margin-top: -5vh;
     width: 100%;
-    background-color: $background;
-    padding: 2rem 0;
+    background-color: $Background;
+    padding: 3vh 0;
     border-radius: 1.5rem 1.5rem 0 0;
 }
 
-.restaurant__title{
+.Restaurant__Title{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,35 +35,35 @@
     }
 }
 
-.menu{
-    background-color: $background;
+.Restaurant__Menu{
+    background-color: $Background;
     & h3{
         padding-top: 1vh;
         margin-left: 2vh;
         font-size: 2.8vh;
         text-transform: uppercase;
     }
-    &--border{
-        padding-bottom: .2rem;
-        border-bottom: 3px solid $tertiary;
+    &--Border{
+        padding-bottom: 0.5vh;
+        border-bottom: 3px solid $Tertiary;
     }
-    &--anim01{
-    animation: menu__slide 600ms ease-in 300ms both;
+    &--Anim01{
+    animation: SlideMenu 600ms ease-in 300ms both;
     }
-    &--anim02{
-        animation: menu__slide 600ms ease-in 450ms both;
+    &--Anim02{
+        animation: SlideMenu 600ms ease-in 450ms both;
     }
-    &--anim03{
-        animation: menu__slide 600ms ease-in 600ms both;
+    &--Anim03{
+        animation: SlideMenu 600ms ease-in 600ms both;
     }
-    &--anim04{
-        animation: menu__slide 600ms ease-in 750ms both;
+    &--Anim04{
+        animation: SlideMenu 600ms ease-in 750ms both;
     }
-    &--bg{
+    &--Background{
         position: relative;
-        background-color: $white;
+        background-color: $White;
         box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
-        border-radius: 1rem;
+        border-radius: 2vh;
         padding: 1vh 1vh;
         margin: 2vh 2vh;
         cursor: pointer;    
@@ -71,63 +71,65 @@
             font-size: 2.2vh;
             margin: 0.5vh 0;
         }
-        .menu__accompaniment-price__container{
+        .Restaurant__Menu__AccompanimentPrice{
             display: flex;
             justify-content: space-between;
         }
-        .menu__accompaniment{
+        .Restaurant__Menu__Accompaniment{
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
             & span{
                 font-size: 1.9vh;
+                font-weight: 300;
 
             }
         }
-        .menu__price{
+        .Restaurant__Menu__Price{
             font-size: 2vh;
             padding: 0 1vh;
             transition: 600ms ease-in-out;
         }
-        &:hover .menu__choose{
+        &:hover .Restaurant__Menu__Choose{
             transform-origin: right;
-            animation: scale-x 600ms ease-in-out both;
+            animation: ScaleX 600ms ease-in-out both;
             & i{
-                animation: rotate360 600ms ease-in-out both; 
+                animation: Rotate360 600ms ease-in-out both; 
             }
         }
-        &:hover .menu__price{
+        &:hover .Restaurant__Menu__Price{
             padding: 0 8vh;
             transition: 600ms ease-in-out;
         }
     }
 }
 
-.menu__choose{
+.Restaurant__Menu__Choose{
     display: flex;
     align-items: center;
-    background: $tertiary;
+    background: $Tertiary;
     height: 100%;
-    border-radius: 0 1rem 1rem 0;
+    border-radius: 0 2vh 2vh 0;
     position: absolute;
     top: 0;
     right: 0;
-    animation: scale-x-back 600ms ease-in-out both;
+    animation: ScaleX--Back 600ms ease-in-out both;
     transform-origin: right;
     & i{
         font-size: 3.5vh;
         padding: 0 2vh;
-        color: $white;
-        animation: rotate360-back 600ms ease-in-out both;
+        color: $White;
+        animation: Rotate360--Back 600ms ease-in-out both;
     }
 }
 
-.order{
+.Restaurant__Order{
     display: flex;
     justify-content: center;
-    margin-top: 7vh;
+    margin: 7vh 0 3.5vh 0;
+
 }
 
-.btn__order{
+.Restaurant__Order__Btn{
     padding: 2vh 6vh;
 }
