@@ -345,8 +345,8 @@
 .Btn:active {
   -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
   -webkit-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
@@ -440,8 +440,8 @@
 .Restaurant .Restaurant__Thumbnail:active {
   -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
   -webkit-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
