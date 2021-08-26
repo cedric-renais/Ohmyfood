@@ -745,7 +745,7 @@ h1 {
           animation-iteration-count: 1;
 }
 
-.Fadepages {
+.FadePages {
   -webkit-animation: FadeIn ease 1000ms forwards;
           animation: FadeIn ease 1000ms forwards;
   -webkit-animation-iteration-count: 1;
