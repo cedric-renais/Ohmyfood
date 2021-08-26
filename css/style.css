@@ -349,12 +349,11 @@
 .functioning {
   width: 90%;
   max-width: 400px;
-  margin: 5vh auto;
+  margin: 1.5vh auto;
 }
 
 .functioning h2 {
   font-size: 2.8vh;
-  margin-left: 3vh;
 }
 
 .functioning__menu {
@@ -407,7 +406,7 @@
 
 #restaurants h2 {
   font-size: 3vh;
-  margin-left: 3vh;
+  margin-left: 1.5vh;
 }
 
 .restaurant a {
@@ -420,7 +419,7 @@
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 1rem 1rem;
-  margin: 0 3vh 4vh 3vh;
+  margin: 0 1.5vh 4vh 1.5vh;
   position: relative;
 }
 
@@ -462,13 +461,13 @@
 
 .restaurant .restaurant__thumbnail h3 {
   margin: 0.5vh 1vh;
-  font-size: 2.6vh;
+  font-size: 2.4vh;
 }
 
 .restaurant .restaurant__thumbnail p {
   margin: 0.5vh 1vh;
   padding-bottom: 0.5vh;
-  font-size: 2.4vh;
+  font-size: 2.3vh;
   font-weight: 400;
 }
 
