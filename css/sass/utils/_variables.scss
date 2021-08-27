@@ -1,4 +1,3 @@
-/* Color */
 $Primary: #9356DC;
 $Secondary: #FF79DC;
 $Tertiary: #99E2D0;
@@ -8,19 +7,15 @@ $LinearGradient: linear-gradient(165deg, $Secondary 0%, $Primary 100%);
 $LinearGradient--Inverse: linear-gradient(165deg, $Primary 0%, $Secondary 100%);
 $White: #fff;
 
-/* Width */
 $Width: 100%;
 
-/* Header */
 $Header--FontSize: 5vh;
 $Header--Center: center;
 $Header--Margin: 0;
 
-/* functioning */
 $Functioning--MarginRight: 2vh;
 $Functioning--FontSize: 2.5vh;
 
-/* footer */
 $Footer--FontSize: 2.5vh;
 $Footer--FontWeight: 300;
 

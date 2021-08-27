@@ -30,9 +30,10 @@
         }
         & img{
             width: $Width;
-            height: 20vh;
+            height: 25vh;
             border-radius: 2vh 2vh 0 0;
             object-fit: cover;
+            object-position: 100% 62.5%;
         }
         &__New{
             position: absolute;

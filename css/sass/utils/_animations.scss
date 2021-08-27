@@ -1,4 +1,3 @@
-/* Animation Loader */
 @keyframes Loader{
     0%{
         transform: scale(0) translateY(0) rotateX(360deg);
@@ -36,7 +35,6 @@
     }
 }
 
-/* Animation SlideMenu */
  @keyframes SlideMenu{
     0%{
         transform: translateY(+25px);
@@ -48,7 +46,6 @@
     }
 }
   
-/* Animation Menu__Choose */
 @keyframes ScaleX{
     0%{
         transform: scaleX(0);
@@ -68,7 +65,6 @@
     }
 }
 
-/* animation Menu__Choose--back */
 @keyframes ScaleX--Back{
     0%{
         transform: scaleX(1);
@@ -88,7 +84,6 @@
     }
 }
 
-/* FadeIn pages */
 @keyframes FadeIn{
     0%{
         opacity: 0;

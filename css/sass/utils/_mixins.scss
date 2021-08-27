@@ -1,11 +1,9 @@
-/* Header */
 @mixin HeaderTitle {
     font-size: $Header--FontSize;
     text-align: $Header--Center;
     margin: $Header--Margin;
 }
 
-/* Base Button */
 @mixin Button {
     background: $LinearGradient;
     box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -21,7 +19,6 @@
     opacity: 1;
 }
 
-/* InverseGradientButton */
 @mixin Button--Inverse {
     background: $LinearGradient--Inverse;
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
@@ -29,17 +26,14 @@
     transition: opacity 300ms;
 }
 
-/* SmallShadow */
 @mixin BoxShadow{
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* BigShadow */
 @mixin BoxShadow--Big {
     box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
-/* ScalingEffect */
 @mixin Scaling {
     transform: scale(1.02);
     transition: 150ms ease-in-out;
