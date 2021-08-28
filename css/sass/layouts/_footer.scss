@@ -2,10 +2,10 @@
     position: relative;
     background-color: #353535;
     color: $White;
-    padding: 1vh 3vh 3vh 3vh;
+    padding: .5rem 1.5rem 1.5rem 1.5rem;
     & h2{
         font-family: "Shrikhand" , cursive;
-        font-size: 2.6vh;
+        font-size: clamp(16px, 2.5vw, 20px);
         font-weight: $Footer--FontWeight;  
     }
     & div{
@@ -15,15 +15,15 @@
         text-decoration: none;
         color: $White;
         font-family: "Roboto" , sans-serif;
-        font-size: $Footer--FontSize;
+        font-size: clamp(14px, 2.5vw, 20px);
         font-weight: $Footer--FontWeight;
     }
     .fa-utensils{
-        font-size: $Footer--FontSize;
+        font-size: clamp(14px, 2.5vw, 20px);
         margin-right: 1.5vh;
     }
     .fa-hands-helping{
-        font-size: 2vh;
+        font-size: clamp(12px, 2.5vw, 16px);
         margin-right: 1vh;
     }
     &--Link{

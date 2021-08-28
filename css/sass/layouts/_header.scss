@@ -7,7 +7,6 @@
     }
 }
 
-
 .Header__Home{
     & h1{
         @include HeaderTitle;
@@ -22,7 +21,8 @@
     }
     & i{
         position: absolute;
-        margin: 2.5vh 0 0 1.5vh;
+        top: 2vh;
+        left: 2vh;
         font-size: 2.5vh;
         color: black;
         &:hover{
