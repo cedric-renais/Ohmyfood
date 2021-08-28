@@ -1,0 +1,46 @@
+@mixin HeaderTitle {
+    font-size: $Header--FontSize;
+    text-align: $Header--Center;
+    margin: $Header--Margin;
+}
+
+@mixin Button {
+    background: $LinearGradient;
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 15vh;
+    padding: 1.5vh 3vh;
+    font-size: 2vh;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    color: $White;
+    font-weight: 700;
+    text-decoration:none;
+    opacity: 1;
+}
+
+@mixin Button--Inverse {
+    background: $LinearGradient--Inverse;
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+    opacity: 0.75;
+    transition: opacity 300ms;
+}
+
+@mixin BoxShadow{
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+@mixin BoxShadow--Big {
+    box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+@mixin Scaling {
+    transform: scale(1.02);
+    transition: 150ms ease-in-out;
+}
+
+@mixin Ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

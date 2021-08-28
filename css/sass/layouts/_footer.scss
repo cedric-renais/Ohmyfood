@@ -1,0 +1,37 @@
+.Footer{
+    position: relative;
+    background-color: #353535;
+    color: $White;
+    padding: 1vh 3vh 3vh 3vh;
+    & h2{
+        font-family: "Shrikhand" , cursive;
+        font-size: 2.6vh;
+        font-weight: $Footer--FontWeight;  
+    }
+    & div{
+        margin-bottom: 1vh;
+    }
+    & a{
+        text-decoration: none;
+        color: $White;
+        font-family: "Roboto" , sans-serif;
+        font-size: $Footer--FontSize;
+        font-weight: $Footer--FontWeight;
+    }
+    .fa-utensils{
+        font-size: $Footer--FontSize;
+        margin-right: 1.5vh;
+    }
+    .fa-hands-helping{
+        font-size: 2vh;
+        margin-right: 1vh;
+    }
+    &--Link{
+        &:hover{
+            border-bottom: 1px solid $Secondary;
+        }
+        &:active{
+            color: $Tertiary;
+        }
+    }
+}
