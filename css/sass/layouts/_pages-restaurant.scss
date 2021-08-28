@@ -100,7 +100,7 @@
             }
         }
         &:hover .Restaurant__Menu__Price{
-            padding-right: 4rem;
+            padding-right: 10vh;
             transition: 600ms ease-in-out;
         }
     }
@@ -111,6 +111,7 @@
     align-items: center;
     background: $Tertiary;
     height: 100%;
+    min-width: 7.5vh;
     border-radius: 0 1rem 1rem 0;
     position: absolute;
     top: 0;
@@ -118,8 +119,8 @@
     animation: ScaleX--Back 600ms ease-in-out both;
     transform-origin: right;
     & i{
-        font-size: clamp(16px, 2.5vw, 20px);
-        padding: 0 1rem;
+        font-size: clamp(20px, 2.5vw, 34px);
+        padding: 0 30%;
         color: $White;
         animation: Rotate360--Back 600ms ease-in-out both;
     }
