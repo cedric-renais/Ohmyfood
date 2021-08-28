@@ -315,7 +315,7 @@
   margin: 1vh 1.5vh 3.5vh 1.5vh;
 }
 
-.Btn {
+.Button {
   background: linear-gradient(165deg, #FF79DC 0%, #9356DC 100%);
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -331,7 +331,7 @@
   opacity: 1;
 }
 
-.Btn:hover {
+.Button:hover {
   background: linear-gradient(165deg, #9356DC 0%, #FF79DC 100%);
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
@@ -340,7 +340,7 @@
   transition: opacity 300ms;
 }
 
-.Btn:active {
+.Button:active {
   -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.02);
@@ -579,12 +579,12 @@
 
 .Restaurant__Title h2 {
   font-family: "Shrikhand" , cursive;
-  font-size: 3.3vh;
+  font-size: 4vh;
   margin: 0 2vh;
 }
 
 .Restaurant__Title i {
-  font-size: 3.3vh;
+  font-size: 4vh;
   margin-right: 2vh;
 }
 
@@ -595,7 +595,8 @@
 .Restaurant__Menu h3 {
   padding-top: 1vh;
   margin-left: 2vh;
-  font-size: 2.8vh;
+  font-size: 3vh;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -629,8 +630,7 @@
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
   border-radius: 2vh;
-  padding: 1vh 1vh;
-  margin: 2vh 2vh;
+  margin: 2vh 1vh;
   cursor: pointer;
 }
 
@@ -644,22 +644,23 @@
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Name {
+  padding: 0 2vh;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Name h4 {
-  font-size: 2.1vh;
-  margin: 0.5vh 0;
+  font-size: 2.5vh;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.Restaurant__Menu--Background .Restaurant__Menu__Name span {
-  font-size: 1.8vh;
+.Restaurant__Menu--Background .Restaurant__Menu__Name p {
+  font-size: 2vh;
   font-weight: 300;
+  margin-top: -2vh;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -672,8 +673,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 2vh;
-  padding: 0 1vh;
+  font-size: 2.5vh;
+  padding: 0 2vh;
   -webkit-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
 }
@@ -733,11 +734,10 @@
   margin: 7vh 0 3.5vh 0;
 }
 
-.Restaurant__Order__Btn {
+.Restaurant__Order__Button {
   padding: 1.5vh 7vh;
 }
 
-/* GeneralSetting */
 body {
   font-family: "Roboto" , sans-serif;
   max-width: 1280px;
@@ -748,7 +748,6 @@ h1 {
   font-family: "Shrikhand" , cursive;
 }
 
-/* Animations */
 .FadeIndex {
   -webkit-animation: FadeIndex ease 3700ms forwards;
           animation: FadeIndex ease 3700ms forwards;

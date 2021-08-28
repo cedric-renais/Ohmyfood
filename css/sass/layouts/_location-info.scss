@@ -24,7 +24,7 @@
     }
 }
 
-.Btn {
+.Button {
     @include Button;
     &:hover{
         @include Button--Inverse;
