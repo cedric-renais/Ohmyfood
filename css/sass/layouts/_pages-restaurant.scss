@@ -27,11 +27,11 @@
     justify-content: space-between;
     & h2{
         font-family: "Shrikhand" , cursive;
-        font-size: clamp(18px, 2.5vw, 26px);
+        font-size: clamp(18px, 5vw, 26px);
         margin: 0 1rem;
     }
     & i{
-        font-size: clamp(20px, 2.5vw, 28px);
+        font-size: clamp(20px, 5vw, 28px);
         margin-right: 1rem;
     }
 }
@@ -41,7 +41,7 @@
     & h3{
         padding-top: .5rem;
         margin-left: 1rem;
-        font-size: clamp(12px, 2.5vw, 20px);
+        font-size: clamp(12px, 5vw, 20px);
         font-weight: 300;
         text-transform: uppercase;
     }
@@ -75,11 +75,11 @@
             padding: 0 1rem;
             @include Ellipsis;
             & h4{
-                font-size: clamp(10px, 2.5vw, 20px);
+                font-size: clamp(10px, 3.5vw, 20px);
                 @include Ellipsis;
             }
             & p{
-                font-size: clamp(9px, 2.5vw, 18px);
+                font-size: clamp(9px, 3.5vw, 18px);
                 font-weight: 300;
                 margin-top: -.5rem;
                 @include Ellipsis;
@@ -88,7 +88,7 @@
         .Restaurant__Menu__Price{
             display: flex;
             align-items: center;
-            font-size: clamp(10px, 2.5vw, 20px);
+            font-size: clamp(10px, 3.5vw, 20px);
             padding: 0 1rem;
             transition: 600ms ease-in-out;
         }
@@ -100,7 +100,7 @@
             }
         }
         &:hover .Restaurant__Menu__Price{
-            padding-right: 10vh;
+            padding-right: 9vh;
             transition: 600ms ease-in-out;
         }
     }
@@ -109,9 +109,10 @@
 .Restaurant__Menu__Choose{
     display: flex;
     align-items: center;
+    justify-content: center;
     background: $Tertiary;
     height: 100%;
-    min-width: 7.5vh;
+    width: 7.5vh;
     border-radius: 0 1rem 1rem 0;
     position: absolute;
     top: 0;
@@ -119,8 +120,7 @@
     animation: ScaleX--Back 600ms ease-in-out both;
     transform-origin: right;
     & i{
-        font-size: clamp(20px, 2.5vw, 34px);
-        padding: 0 30%;
+        font-size: clamp(20px, 5vw, 34px);
         color: $White;
         animation: Rotate360--Back 600ms ease-in-out both;
     }

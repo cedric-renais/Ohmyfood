@@ -291,7 +291,7 @@
   padding: 0 1rem;
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
           box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
-  font-size: clamp(14px, 3vw, 20px);
+  font-size: clamp(14px, 5vw, 20px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,12 +314,12 @@
 }
 
 .Info h2 {
-  font-size: clamp(20px, 3vw, 26px);
+  font-size: clamp(20px, 5vw, 26px);
   margin: 1.75rem 1.5rem 0 1.5rem;
 }
 
 .Info p {
-  font-size: clamp(14px, 3vw, 22px);
+  font-size: clamp(14px, 5vw, 22px);
   font-weight: 300;
   margin: .5rem .75rem 1.75rem .75rem;
 }
@@ -365,7 +365,7 @@
 }
 
 .Functioning h2 {
-  font-size: clamp(20px, 3vw, 26px);
+  font-size: clamp(20px, 5vw, 26px);
 }
 
 .Functioning__Instruction {
@@ -388,17 +388,17 @@
   border-radius: 50%;
   margin-left: -.75rem;
   color: white;
-  font-size: clamp(14px, 3vw, 20px);
+  font-size: clamp(14px, 5vw, 20px);
   margin-right: 1rem;
 }
 
 .Functioning__Instruction i {
-  font-size: clamp(16px, 3vw, 22px);
+  font-size: clamp(16px, 5vw, 22px);
   margin-right: 1rem;
 }
 
 .Functioning__Instruction h3 {
-  font-size: clamp(16px, 3vw, 22px);
+  font-size: clamp(16px, 5vw, 22px);
   font-weight: 300;
 }
 
@@ -418,7 +418,7 @@
 }
 
 #Restaurants h2 {
-  font-size: clamp(20px, 3vw, 26px);
+  font-size: clamp(20px, 5vw, 26px);
   margin-left: .75rem;
 }
 
@@ -466,7 +466,7 @@
   position: absolute;
   top: .75rem;
   right: .75rem;
-  font-size: clamp(14px, 3vw, 18px);
+  font-size: clamp(14px, 5vw, 18px);
   padding: .5rem .75rem;
   background-color: #99E2D0;
   color: #2c9c81;
@@ -476,13 +476,13 @@
 
 .Restaurant .Restaurant__Thumbnail h3 {
   margin: .25rem .5rem;
-  font-size: clamp(20px, 3vw, 26px);
+  font-size: clamp(20px, 5vw, 26px);
 }
 
 .Restaurant .Restaurant__Thumbnail p {
   margin: .25rem .5rem;
   padding-bottom: .25rem;
-  font-size: clamp(18px, 3vw, 24px);
+  font-size: clamp(18px, 5vw, 24px);
   font-weight: 300;
 }
 
@@ -490,7 +490,7 @@
   position: absolute;
   right: 1vh;
   bottom: 2vh;
-  font-size: clamp(24px, 3vw, 30px);
+  font-size: clamp(24px, 5vw, 30px);
 }
 
 .Footer {
@@ -502,7 +502,7 @@
 
 .Footer h2 {
   font-family: "Shrikhand" , cursive;
-  font-size: clamp(16px, 2.5vw, 20px);
+  font-size: clamp(16px, 5vw, 20px);
   font-weight: 300;
 }
 
@@ -514,18 +514,18 @@
   text-decoration: none;
   color: #fff;
   font-family: "Roboto" , sans-serif;
-  font-size: clamp(14px, 2.5vw, 20px);
+  font-size: clamp(14px, 5vw, 20px);
   font-weight: 300;
 }
 
 .Footer .fa-utensils {
-  font-size: clamp(14px, 2.5vw, 20px);
-  margin-right: 1.5vh;
+  font-size: clamp(14px, 5vw, 20px);
+  margin-right: 1rem;
 }
 
 .Footer .fa-hands-helping {
-  font-size: clamp(12px, 2.5vw, 16px);
-  margin-right: 1vh;
+  font-size: clamp(12px, 5vw, 16px);
+  margin-right: .75rem;
 }
 
 .Footer--Link:hover {
@@ -587,12 +587,12 @@
 
 .Restaurant__Title h2 {
   font-family: "Shrikhand" , cursive;
-  font-size: clamp(18px, 2.5vw, 26px);
+  font-size: clamp(18px, 5vw, 26px);
   margin: 0 1rem;
 }
 
 .Restaurant__Title i {
-  font-size: clamp(20px, 2.5vw, 28px);
+  font-size: clamp(20px, 5vw, 28px);
   margin-right: 1rem;
 }
 
@@ -603,7 +603,7 @@
 .Restaurant__Menu h3 {
   padding-top: .5rem;
   margin-left: 1rem;
-  font-size: clamp(12px, 2.5vw, 20px);
+  font-size: clamp(12px, 5vw, 20px);
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -659,14 +659,14 @@
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Name h4 {
-  font-size: clamp(10px, 2.5vw, 20px);
+  font-size: clamp(10px, 3.5vw, 20px);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Name p {
-  font-size: clamp(9px, 2.5vw, 18px);
+  font-size: clamp(9px, 3.5vw, 18px);
   font-weight: 300;
   margin-top: -.5rem;
   white-space: nowrap;
@@ -681,7 +681,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: clamp(10px, 2.5vw, 20px);
+  font-size: clamp(10px, 3.5vw, 20px);
   padding: 0 1rem;
   -webkit-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
@@ -700,7 +700,7 @@
 }
 
 .Restaurant__Menu--Background:hover .Restaurant__Menu__Price {
-  padding-right: 10vh;
+  padding-right: 9vh;
   -webkit-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
 }
@@ -712,9 +712,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #99E2D0;
   height: 100%;
-  min-width: 7.5vh;
+  width: 7.5vh;
   border-radius: 0 1rem 1rem 0;
   position: absolute;
   top: 0;
@@ -726,8 +729,7 @@
 }
 
 .Restaurant__Menu__Choose i {
-  font-size: clamp(20px, 2.5vw, 34px);
-  padding: 0 30%;
+  font-size: clamp(20px, 5vw, 34px);
   color: #fff;
   -webkit-animation: Rotate360--Back 600ms ease-in-out both;
           animation: Rotate360--Back 600ms ease-in-out both;

@@ -5,7 +5,7 @@
     padding: .5rem 1.5rem 1.5rem 1.5rem;
     & h2{
         font-family: "Shrikhand" , cursive;
-        font-size: clamp(16px, 2.5vw, 20px);
+        font-size: clamp(16px, 5vw, 20px);
         font-weight: $Footer--FontWeight;  
     }
     & div{
@@ -15,16 +15,16 @@
         text-decoration: none;
         color: $White;
         font-family: "Roboto" , sans-serif;
-        font-size: clamp(14px, 2.5vw, 20px);
+        font-size: clamp(14px, 5vw, 20px);
         font-weight: $Footer--FontWeight;
     }
     .fa-utensils{
-        font-size: clamp(14px, 2.5vw, 20px);
-        margin-right: 1.5vh;
+        font-size: clamp(14px, 5vw, 20px);
+        margin-right: 1rem;
     }
     .fa-hands-helping{
-        font-size: clamp(12px, 2.5vw, 16px);
-        margin-right: 1vh;
+        font-size: clamp(12px, 5vw, 16px);
+        margin-right: .75rem;
     }
     &--Link{
         &:hover{

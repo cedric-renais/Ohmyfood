@@ -4,7 +4,7 @@
     max-width: 1024px;
     margin: 0 auto;
     & h2{
-        font-size: clamp(20px, 3vw, 26px);
+        font-size: clamp(20px, 5vw, 26px);
         margin-left: .75rem;
     }
 }
@@ -39,7 +39,7 @@
             position: absolute;
             top: .75rem;
             right: .75rem;
-            font-size: clamp(14px, 3vw, 18px);
+            font-size: clamp(14px, 5vw, 18px);
             padding: .5rem .75rem;
             background-color: $Tertiary;
             color: darken($Tertiary, 35);
@@ -48,19 +48,19 @@
         }
         & h3{
             margin: .25rem .5rem;
-            font-size: clamp(20px, 3vw, 26px);
+            font-size: clamp(20px, 5vw, 26px);
         }
         & p{
             margin: .25rem .5rem;
             padding-bottom: .25rem;
-            font-size: clamp(18px, 3vw, 24px);
+            font-size: clamp(18px, 5vw, 24px);
             font-weight: 300;
         }
         & i{
             position: absolute;
             right: 1vh;
             bottom: 2vh;
-            font-size: clamp(24px, 3vw, 30px);
+            font-size: clamp(24px, 5vw, 30px);
         }
     }
 }
