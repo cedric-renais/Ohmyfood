@@ -37,4 +37,10 @@
 @mixin Scaling {
     transform: scale(1.02);
     transition: 150ms ease-in-out;
-} 
+}
+
+@mixin Ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

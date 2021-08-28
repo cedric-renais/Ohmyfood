@@ -640,11 +640,17 @@
 .Restaurant__Menu--Background .Restaurant__Menu__Name h4 {
   font-size: 2.1vh;
   margin: 0.5vh 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Name span {
   font-size: 1.8vh;
   font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Price {
