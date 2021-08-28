@@ -51,6 +51,9 @@
         transform: scaleX(0);
         opacity: 0;
     }
+    15%{
+        opacity: 0;
+    }
     100%{
         transform: scaleX(1);
         opacity: 1;
@@ -69,6 +72,9 @@
     0%{
         transform: scaleX(1);
         opacity: 1;
+    }
+    85%{
+        opacity: 0;
     }
     100%{
         transform: scaleX(0);

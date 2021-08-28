@@ -116,6 +116,9 @@
             transform: scaleX(0);
     opacity: 0;
   }
+  15% {
+    opacity: 0;
+  }
   100% {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
@@ -127,6 +130,9 @@
   0% {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
+    opacity: 0;
+  }
+  15% {
     opacity: 0;
   }
   100% {
@@ -164,6 +170,9 @@
             transform: scaleX(1);
     opacity: 1;
   }
+  85% {
+    opacity: 0;
+  }
   100% {
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
@@ -176,6 +185,9 @@
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
     opacity: 1;
+  }
+  85% {
+    opacity: 0;
   }
   100% {
     -webkit-transform: scaleX(0);
