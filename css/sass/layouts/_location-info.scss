@@ -1,9 +1,11 @@
 .Location{
     background-color: $Background--Darken;
-    padding: 2vh;
+    padding: 0 2vh;
     box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5) inset;
     font-size: 2.5vh;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     & i{
         margin-right: 2vh;
     }
