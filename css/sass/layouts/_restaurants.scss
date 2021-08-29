@@ -30,10 +30,9 @@
         }
         & img{
             width: $Width;
-            max-height: 35vh;
+            max-height: 25vh;
             border-radius: 1rem 1rem 0 0;
             object-fit: cover;
-            object-position: 100% 40%;
         }
         &__New{
             position: absolute;
@@ -63,4 +62,8 @@
             font-size: clamp(24px, 5vw, 30px);
         }
     }
+}
+
+.Image__Position{
+    object-position: 100% 30%;
 }
