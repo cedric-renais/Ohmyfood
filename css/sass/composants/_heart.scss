@@ -11,8 +11,6 @@
             transform: scale(1);
             transition: 600ms ease-in;
             }
-        .i .far {
-        }
             &:hover .far {
         background: $LinearGradient--Inverse;
         -webkit-background-clip: text;

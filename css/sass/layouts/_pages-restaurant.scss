@@ -31,8 +31,10 @@
         margin: 0 1rem;
     }
     & i{
-        font-size: clamp(20px, 5vw, 28px);
-        margin-right: 1rem;
+        position: absolute;
+        right: 2vh;
+        top: 3vh;
+        font-size: clamp(26px, 5vw, 35px);
     }
 }
 
