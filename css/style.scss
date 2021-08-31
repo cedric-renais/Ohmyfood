@@ -1,6 +1,8 @@
 @import "./sass/utils/variables";
 @import "./sass/utils/mixins";
 @import "./sass/utils/animations";
+@import "./sass/composants/heart";
+@import "./sass/composants/button";
 @import "./sass/layouts/header";
 @import "./sass/layouts/location-info";
 @import "./sass/layouts/functioning";
@@ -26,15 +28,4 @@ h1{
 .FadePages{
     animation: FadeIn ease 1000ms forwards;
     animation-iteration-count: 1;  
-}
-
-.fa-heart {
-    cursor: pointer;
-}
-.fa-heart:hover {
-    background: $LinearGradient--Inverse;
-    color: transparent;
-    transition: color 600ms ease;
-    font-weight: 700;
-    -webkit-background-clip: text;
 }

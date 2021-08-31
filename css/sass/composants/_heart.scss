@@ -1,0 +1,10 @@
+.fa-heart {
+    cursor: pointer;
+}
+.fa-heart:hover {
+    background: $LinearGradient--Inverse;
+    color: transparent;
+    transition: color 600ms ease;
+    font-weight: 700;
+    -webkit-background-clip: text;
+}
