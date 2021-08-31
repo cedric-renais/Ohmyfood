@@ -1,10 +1,21 @@
-.fa-heart {
-    cursor: pointer;
-}
-.fa-heart:hover {
-    background: $LinearGradient--Inverse;
-    color: transparent;
-    transition: color 600ms ease;
-    font-weight: 700;
-    -webkit-background-clip: text;
+.Restaurant__Thumbnail__heart{
+        .fas {
+        background: $LinearGradient--Inverse;
+        -webkit-background-clip: text;
+        color:transparent;
+        transform: scale(0);
+        transform-origin: bottom;
+        cursor: pointer;
+        }
+            &:hover .fas {
+            transform: scale(1);
+            transition: 600ms ease-in;
+            }
+        .i .far {
+        }
+            &:hover .far {
+        background: $LinearGradient--Inverse;
+        -webkit-background-clip: text;
+        color:transparent;
+        }
 }

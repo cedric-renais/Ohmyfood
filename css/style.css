@@ -236,19 +236,52 @@
   }
 }
 
-.fa-heart {
+.Restaurant__Thumbnail__heart .fas {
+  background: linear-gradient(165deg, #9356DC 0%, #FF79DC 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
   cursor: pointer;
 }
 
-.fa-heart:hover {
-  background: -o-linear-gradient(285deg, #9356DC 0%, #FF79DC 100%);
+.Restaurant__Thumbnail__heart:hover .fas {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 600ms ease-in;
+  transition: 600ms ease-in;
+}
+
+.Restaurant__Thumbnail__heart:hover .far {
   background: linear-gradient(165deg, #9356DC 0%, #FF79DC 100%);
-  color: transparent;
-  -webkit-transition: color 600ms ease;
-  -o-transition: color 600ms ease;
-  transition: color 600ms ease;
-  font-weight: 700;
   -webkit-background-clip: text;
+  color: transparent;
+}
+
+body {
+  font-family: "Roboto" , sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Shrikhand" , cursive;
+}
+
+.FadePages {
+  -webkit-animation: FadeIn ease 1000ms forwards;
+          animation: FadeIn ease 1000ms forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.FadeIndex {
+  -webkit-animation: FadeIndex ease 3700ms forwards;
+          animation: FadeIndex ease 3700ms forwards;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .Header__Index--loader {
@@ -290,10 +323,8 @@
 
 .Header__Restaurant i:active {
   -webkit-transform: scale(1.3);
-          -ms-transform: scale(1.3);
-      transform: scale(1.3);
+          transform: scale(1.3);
   -webkit-transition: 150ms ease-in-out;
-  -o-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
 
@@ -342,7 +373,6 @@
 }
 
 .Button {
-  background: -o-linear-gradient(285deg, #FF79DC 0%, #9356DC 100%);
   background: linear-gradient(165deg, #FF79DC 0%, #9356DC 100%);
   -webkit-box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
           box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -359,13 +389,11 @@
 }
 
 .Button:hover {
-  background: -o-linear-gradient(285deg, #9356DC 0%, #FF79DC 100%);
   background: linear-gradient(165deg, #9356DC 0%, #FF79DC 100%);
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
   opacity: 0.75;
   -webkit-transition: opacity 300ms;
-  -o-transition: opacity 300ms;
   transition: opacity 300ms;
 }
 
@@ -373,10 +401,8 @@
   -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.02);
-          -ms-transform: scale(1.02);
-      transform: scale(1.02);
+          transform: scale(1.02);
   -webkit-transition: 150ms ease-in-out;
-  -o-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
 
@@ -462,7 +488,6 @@
   -webkit-box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.5);
   -webkit-transition: 150ms ease-in-out;
-  -o-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
 
@@ -470,10 +495,8 @@
   -webkit-box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
           box-shadow: 0 6px 6px 6px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.02);
-          -ms-transform: scale(1.02);
-      transform: scale(1.02);
+          transform: scale(1.02);
   -webkit-transition: 150ms ease-in-out;
-  -o-transition: 150ms ease-in-out;
   transition: 150ms ease-in-out;
 }
 
@@ -683,16 +706,14 @@
   padding: 0 1rem;
   white-space: nowrap;
   overflow: hidden;
-  -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Name h4 {
   font-size: clamp(10px, 3.5vw, 20px);
   white-space: nowrap;
   overflow: hidden;
-  -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Name p {
@@ -701,8 +722,7 @@
   margin-top: -.5rem;
   white-space: nowrap;
   overflow: hidden;
-  -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
+  text-overflow: ellipsis;
 }
 
 .Restaurant__Menu--Background .Restaurant__Menu__Price {
@@ -715,14 +735,12 @@
   font-size: clamp(10px, 3.5vw, 20px);
   padding: 0 1rem;
   -webkit-transition: 600ms ease-in-out;
-  -o-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
 }
 
 .Restaurant__Menu--Background:hover .Restaurant__Menu__Choose {
   -webkit-transform-origin: right;
-          -ms-transform-origin: right;
-      transform-origin: right;
+          transform-origin: right;
   -webkit-animation: ScaleX 600ms ease-in-out both;
           animation: ScaleX 600ms ease-in-out both;
 }
@@ -735,7 +753,6 @@
 .Restaurant__Menu--Background:hover .Restaurant__Menu__Price {
   padding-right: 9vh;
   -webkit-transition: 600ms ease-in-out;
-  -o-transition: 600ms ease-in-out;
   transition: 600ms ease-in-out;
 }
 
@@ -759,8 +776,7 @@
   -webkit-animation: ScaleX--Back 600ms ease-in-out both;
           animation: ScaleX--Back 600ms ease-in-out both;
   -webkit-transform-origin: right;
-          -ms-transform-origin: right;
-      transform-origin: right;
+          transform-origin: right;
 }
 
 .Restaurant__Menu__Choose i {
@@ -783,27 +799,4 @@
 .Restaurant__Order__Button {
   padding: .75rem 3.5rem;
 }
-
-body {
-  font-family: "Roboto" , sans-serif;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-h1 {
-  font-family: "Shrikhand" , cursive;
-}
-
-.FadeIndex {
-  -webkit-animation: FadeIndex ease 3700ms forwards;
-          animation: FadeIndex ease 3700ms forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-}
-
-.FadePages {
-  -webkit-animation: FadeIn ease 1000ms forwards;
-          animation: FadeIn ease 1000ms forwards;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-}
+/*# sourceMappingURL=style.css.map */

@@ -3,29 +3,10 @@
 @import "./sass/utils/animations";
 @import "./sass/composants/heart";
 @import "./sass/composants/button";
+@import "./sass/composants/bases";
 @import "./sass/layouts/header";
 @import "./sass/layouts/location-info";
 @import "./sass/layouts/functioning";
 @import "./sass/layouts/restaurants";
 @import "./sass/layouts/footer";
 @import "./sass/layouts/pages-restaurant";
-
-body{
-    font-family: "Roboto" , sans-serif;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-h1{
-    font-family: "Shrikhand" , cursive;
-}
-
-.FadeIndex{
-    animation: FadeIndex ease 3700ms forwards;
-    animation-iteration-count: 1;
-}
-
-.FadePages{
-    animation: FadeIn ease 1000ms forwards;
-    animation-iteration-count: 1;  
-}
