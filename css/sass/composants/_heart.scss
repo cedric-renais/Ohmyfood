@@ -1,19 +1,22 @@
-.Restaurant__Thumbnail__heart{
-        .fas {
-        background: $LinearGradient--Inverse;
-        -webkit-background-clip: text;
-        color:transparent;
-        transform: scale(0);
-        transform-origin: bottom;
-        cursor: pointer;
-        }
-            &:hover .fas {
-            transform: scale(1);
-            transition: 600ms ease-in;
-            }
-            &:hover .far {
-        background: $LinearGradient--Inverse;
-        -webkit-background-clip: text;
-        color:transparent;
-        }
+.Restaurant__heart{
+    .fas {
+    background: $LinearGradient--Inverse;
+    -webkit-background-clip: text;
+    color:transparent;
+    transform: scale(0);
+    transform-origin: bottom;
+    cursor: $Cursor;
+    }
+    &:hover .fas {
+    transform: scale(1);
+    transition: 600ms ease-in;
+    }
+    .far{
+    cursor: $Cursor;
+    }
+    &:hover .far {
+    background: $LinearGradient--Inverse;
+    -webkit-background-clip: text;
+    color:transparent;
+    }
 }
