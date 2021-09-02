@@ -88,8 +88,7 @@
             }
         }
         .Restaurant__Menu__Price{
-            display: flex;
-            align-items: center;
+            margin-top: 4.5rem;
             font-size: clamp(10px, 3.5vw, 20px);
             padding: 0 1rem;
             transition: 600ms ease-in-out;
@@ -102,7 +101,7 @@
             }
         }
         &:hover .Restaurant__Menu__Price{
-            padding-right: 9vh;
+            padding-right: 9.5vh;
             transition: 600ms ease-in-out;
         }
     }
@@ -114,15 +113,16 @@
     justify-content: center;
     background: $Tertiary;
     height: 100%;
-    width: 7.5vh;
+    width: 8.5vh;
     border-radius: 0 1rem 1rem 0;
     position: absolute;
     top: 0;
-    right: 0;
+    bottom: -0.5px;
+    right: -0.5px;
     animation: ScaleX--Back 600ms ease-in-out both;
     transform-origin: right;
     & i{
-        font-size: clamp(20px, 5vw, 34px);
+        font-size: clamp(26px, 5vw, 34px);
         color: $White;
         animation: Rotate360--Back 600ms ease-in-out both;
     }

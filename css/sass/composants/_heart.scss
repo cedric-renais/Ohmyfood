@@ -7,10 +7,6 @@
     transform-origin: bottom;
     cursor: $Cursor;
     }
-    &:hover .fas {
-    transform: scale(1);
-    transition: 600ms ease-in;
-    }
     .far{
     cursor: $Cursor;
     }
@@ -18,5 +14,9 @@
     background: $LinearGradient--Inverse;
     -webkit-background-clip: text;
     color:transparent;
+    }
+    &:hover .fas {
+        transform: scale(1);
+        transition: 600ms ease-in;
     }
 }
