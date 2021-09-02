@@ -88,7 +88,8 @@
             }
         }
         .Restaurant__Menu__Price{
-            margin-top: 4.5rem;
+            display: flex;
+            align-items: center;
             font-size: clamp(10px, 3.5vw, 20px);
             padding: 0 1rem;
             transition: 600ms ease-in-out;
