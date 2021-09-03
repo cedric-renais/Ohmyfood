@@ -1,0 +1,26 @@
+.TopArrow{
+    width: clamp(30px, 5vw, 60px);
+    height: clamp(30px, 5vw, 60px);
+    background: #00000044;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 1;
+    .fa-arrow-up{
+        color: black;
+        font-size: clamp(10px, 5vw, 25px);
+    }
+    &:hover {
+        background: $Tertiary;
+        transition: 150ms ease-in-out;
+    }
+    &:hover .fa-arrow-up{
+        color: $Secondary;
+        transition: 150ms ease-in-out;
+    }
+}

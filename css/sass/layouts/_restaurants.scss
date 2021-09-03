@@ -30,7 +30,7 @@
         }
         & img{
             width: $Width;
-            max-height: clamp(150px, 200px, 300px);
+            max-height: clamp(250px, 300px, 350px);
             border-radius: 1rem 1rem 0 0;
             object-fit: cover;
         }
