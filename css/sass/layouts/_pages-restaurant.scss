@@ -4,7 +4,7 @@
     flex-direction: column;
     & img{
         width: $Width;
-        max-height: 35vh;
+        max-height: clamp(150px, 250px, 350px);
         object-fit: cover;
     }
 }
@@ -32,8 +32,8 @@
     }
     & i{
         position: absolute;
-        right: 2vh;
-        top: 3vh;
+        right: 15px;
+        top: 25px;
         font-size: clamp(26px, 5vw, 35px);
     }
 }
@@ -102,7 +102,7 @@
             }
         }
         &:hover .Restaurant__Menu__Price{
-            padding-right: 9.5vh;
+            padding-right: 75px;
             transition: 600ms ease-in-out;
         }
     }
@@ -114,7 +114,7 @@
     justify-content: center;
     background: $Tertiary;
     height: 100%;
-    width: 8.5vh;
+    width: 65px;
     border-radius: 0 1rem 1rem 0;
     position: absolute;
     top: 0;

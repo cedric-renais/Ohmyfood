@@ -9,7 +9,7 @@ $White: #fff;
 
 $Width: 100%;
 
-$Header--FontSize: 4.5vh;
+$Header--FontSize: clamp(30px, 5vw, 60px);
 $Header--Center: center;
 $Header--Margin: 0;
 
